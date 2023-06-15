@@ -27,7 +27,7 @@ const DressCode = () => {
       </div>
 
       <div className="Presents">
-        <h1>Mesa de Regalos</h1>
+        <p className="p-presents">Mesa de Regalos</p>
         <p>
           El mejor regalo que nos puedes dar es tu presencia, pero si quieres
           obsequiarnos algo puedes hacerlo a través de las siguientes mesas de

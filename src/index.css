@@ -699,11 +699,15 @@
 
     .Presents {
       width: 18rem;
+
     }
 
-    .Presents h1{
+    .Presents .p-presents{
       position: relative;
-      bottom: 1rem;
+      bottom: 0.5rem;
+      left: 1.2rem;
+      font-family: "Great Vibes", cursive;
+      font-size: 37px;
     }
 
     .Presents p{
@@ -1016,36 +1020,80 @@
       top: 1.5rem;
     }
 
-    
-     .Fourth-Background {
+      .Fourth-Background {
       position: relative;
       left: 0rem;
-      background-color: purple;
     }
 
     .DressCode {
       position: relative;
-      left: 2rem;
+      left: -1.6rem;
       width: 15rem;
     }
 
     .DressCode p{
-      width: 15rem;
+      width: 18.5rem;
+      font-size: 42px;
+    }
+
+    .Formal {
+      font-size: 16px;
+      position: relative;
+      top: 2rem;
+    }
+
+    .Traje img {
+      width: 5.5rem;
+    }
+
+    .Traje p{
+      font-size: 18px;
+    }
+
+    .Dress img {
+      width: 5.5rem;
+    }
+
+    .Dress p{
+      font-size: 18px;
     }
 
     .Presents {
       width: 18rem;
+
+    }
+
+    .Presents .p-presents{
+      position: relative;
+      bottom: 0.5rem;
+      left: 1.2rem;
+      font-family: "Great Vibes", cursive;
+      font-size: 38px;
     }
 
     .Presents p{
-      font-size: 20px;
+      font-size: 20.5px;
       width: 18rem;
     }
 
     .presents-table img{
-      width: 2rem;
+      width: 8.5rem;
+      height: 5rem;
     }
 
+    .liverpool {
+      position: relative;
+      left: 1.3rem;
+      top: 0.5rem;
+    }
+
+    .amazon {
+      position: relative;
+      top: 0.7rem;
+      right: 1.2rem;
+    }
+
+   
     .Fifth-Background {
       position: relative;
       left: 0rem;
