@@ -6,17 +6,7 @@
   box-sizing: border-box;
 }
 
-.First-Background {
-  background: url("./Karen_Luis1.jpg");
-  background-size: cover;
-  background-position: center center;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  min-width: 100vh;
-  height: 225vh;
-}
+
 
 .First-Background p {
   color: #fff;
@@ -457,18 +447,35 @@
 }
 
 @media (max-width: 320px){
-  .App {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        min-width: 280px;
-        min-height: 700px;
+  
+
+    .Second-Background{
+      display: flex;
+      background-color: yellow;
+      position: relative;
+      left: 0rem;
     }
 
-    .Second-Background {
-      position: relative;
-      left: 9rem;
+    .My-wedding{
+      font-size: 30px;
+    }
+
+    .Date {
+      width: 10rem;
+      background-color: red;
+    }
+
+    .Date p{
+      font-size: 14px;
+    }
+
+    .Date h1{
+      font-size: 14px;
+    }
+
+    .Counter {
+      width: 10rem;
+      background-color: green;
     }
 
     .Third-Background {
