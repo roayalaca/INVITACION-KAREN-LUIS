@@ -445,46 +445,49 @@
 
     .Second-Background{
       display: flex;
-      position: relative;
-      left: 0rem;
+      justify-content: center;
+      align-items: center;
     }
 
     .My-wedding{
       font-size: 52px;
       position: relative;
-      left: 1rem;
-      bottom: 4rem;
+      left: 0.7rem;
+      bottom: 1rem;
     }
 
     .Date {
-      width: 17rem;
+      width: 20rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       position: relative;
-      bottom: 3.5rem;
+      bottom: 0.8rem;
     }
 
     .Date p{
       font-size: 21px;
       position: relative;
-      right: -0.4rem;
+      right: 2rem;
     }
 
     .Date h1{
       font-size: 23px;
       position: relative;
-      left: 2.2rem;
+      left: 0.2rem;
     }
 
     .Guadalajara {
       position: relative;
-      left: -1.3rem;
-
+      bottom: 0.2rem;
     }
+
 
     .Counter {
       width: 18rem;
       position: relative;
-      bottom: 1.3rem;
-      right: 0.7rem;
+      right: 0.5rem;
     }
 
     .days1{
@@ -544,11 +547,11 @@
     }
 
     .Flowers img {
-      position: relative;
-      top: -0.5rem;
       width: 13rem;
-      left: 0.4rem;
+      position: relative;
+      left: 0.5rem;
     }
+
 
     .Third-Background {
       display: flex;
