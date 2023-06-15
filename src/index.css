@@ -8,12 +8,6 @@
 
 
 
-.First-Background p {
-  color: #fff;
-  font-size: 140px;
-  font-weight: bolder;
-}
-
 .Second-Background {
   display: flex;
   justify-content: center;
@@ -396,7 +390,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-width: 40rem;
+  width: 40rem;
   margin-left: 5rem;
   height: 20rem;
   background-color: rgba(128, 128, 128, 0.096);
@@ -578,30 +572,58 @@
       width: 2rem;
     }
 
+    .Fifth-Background {
+      position: relative;
+      left: 0rem;
+      background-color: orange;
+    }
 
     .funny {
       position: relative;
-      left: 8rem;
-      width: 20rem;
+      left: 0rem;
+      width: 18rem;
     }
-  
+
+    .funny img {
+      position: relative;
+    }
+
     .funny p {
       font-size: 10px;
     }
 
     .Form {
       position: relative;
-      left: 4rem;
+      left: 0rem;
+      background-color: yellow;
+      width: 15rem;
+    }
+
+    .div .input {
+      width: 18rem;
+    }
+
+    #Si{
+      width: 18rem;
+    }
+
+    #No{
+      width: 18rem;
+    }
+
+    .div2 .input {
+      width: 18rem;
     }
 
     .Form form {
-      width: 7rem;
+      width: 18rem;
       position: relative;
-      left: 2rem;
+      right: 2rem;
+      background-color: green;
     }
 
     .Form strong {
-      font-size: 2rem;
+      font-size: 1rem;
     }
 
     .Form input{
@@ -610,7 +632,7 @@
 
     .funny1 {
       position: relative;
-      left: 8rem;
+      left: 0rem;
       width: 20rem;
     }
 

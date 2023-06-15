@@ -14,9 +14,9 @@ function App() {
     <>
       <div className="App">
         
-        <div className="First-Background">
+        {/* <div className="First-Background">
           <p>KAREN & LUIS</p>
-        </div>
+        </div> */}
 
         <Mywedding />
         <Schedule />
