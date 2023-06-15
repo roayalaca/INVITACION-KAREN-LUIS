@@ -445,43 +445,106 @@
 
     .Second-Background{
       display: flex;
-      background-color: yellow;
       position: relative;
       left: 0rem;
     }
 
     .My-wedding{
-      font-size: 50px;
+      font-size: 52px;
+      position: relative;
+      left: 1rem;
+      bottom: 5rem;
     }
 
     .Date {
-      width: 10rem;
-      background-color: red;
+      width: 15rem;
+      position: relative;
+      bottom: 3rem;
     }
 
     .Date p{
-      font-size: 14px;
+      font-size: 18px;
+      position: relative;
+      right: 0.3rem;
     }
 
     .Date h1{
-      font-size: 14px;
+      font-size: 20px;
+      position: relative;
+      left: 2rem;
+    }
+
+    .Guadalajara {
+      position: relative;
+      left: -1.3rem;
     }
 
     .Counter {
-      width: 10rem;
-      background-color: green;
+      width: 18rem;
+      position: relative;
+      bottom: 1rem;
     }
 
     .days1{
-      width: 1rem;
+      width: 4rem;
+    }
+
+    .days {
+      font-size: 18px;
+      width: 2.7rem;
+      height: 2.7rem;
+    }
+
+    .days1 small {
+      font-size: 15px;
     }
 
     .hours1{
-      width: 0.2rem;
+      width: 4rem;
     }
 
     .hours{
-      width: 2rem;
+      font-size: 18px;
+      width: 2.7rem;
+      height: 2.7rem;
+    }
+
+    .hours1 small {
+      font-size: 15px;
+    }
+
+    .minutes1 {
+      width: 4rem;
+    }
+
+    .minutes{
+      font-size: 18px;
+      width: 2.7rem;
+      height: 2.7rem;
+    }
+
+    .minutes1 small {
+      font-size: 15px;
+    }
+
+    .seconds1 {
+      width: 4rem;
+    }
+
+    .seconds{
+      font-size: 18px;
+      width: 2.7rem;
+      height: 2.7rem;
+    }
+
+    .seconds1 small {
+      font-size: 15px;
+    }
+
+    .Flowers img {
+      position: relative;
+      top: 0rem;
+      width: 13rem;
     }
 
     .Third-Background {
@@ -645,7 +708,6 @@
 @media (min-width: 321px) {
    .Second-Background{
       display: flex;
-      background-color: yellow;
       position: relative;
       left: 0rem;
     }
@@ -656,7 +718,6 @@
 
     .Date {
       width: 10rem;
-      background-color: red;
     }
 
     .Date p{
@@ -669,7 +730,6 @@
 
     .Counter {
       width: 10rem;
-      background-color: green;
     }
 
     .days1{
@@ -684,162 +744,7 @@
       width: 2rem;
     }
 
-    .Third-Background {
-      display: flex;
-      background-color: green;
-      position: relative;
-      left: 0rem;
-    }
-
-    .CereImage img{
-      width: 2rem;
-    }
-
-    .p1 {
-      font-size: 10px;
-    }
-
-    .CereImage a {
-      font-size: 10px;
-    }
-
-    .Ceremony {
-      width: 15rem;
-      position: relative;
-      left: 3rem;
-    }
-
-     .Cheers {
-      width: 15rem;
-      position: relative;
-      left: 3rem;
-    }
-
-    .CereText h1{
-      font-size: 0.5rem;
-    }
-
-    .CereText h2{
-      font-size: 0.5rem;
-    }
-
-    .CereText p{
-      font-size: 0.5rem;
-    }
-
-     .CheersText h1{
-      font-size: 0.5rem;
-    }
-
-    .CheersText h2{
-      font-size: 0.5rem;
-    }
-
-    .CheersText p{
-      font-size: 0.5rem;
-    }
-
-    .Presents {
-      width: 35rem;
-    }
-
-     .Fourth-Background {
-      position: relative;
-      left: 0rem;
-      background-color: purple;
-    }
-
-    .DressCode {
-      position: relative;
-      left: 2rem;
-      width: 15rem;
-    }
-
-    .DressCode p{
-      width: 15rem;
-    }
-
-    .Presents {
-      width: 18rem;
-    }
-
-    .Presents p{
-      font-size: 20px;
-      width: 18rem;
-    }
-
-    .presents-table img{
-      width: 2rem;
-    }
-
-    .Fifth-Background {
-      position: relative;
-      left: 0rem;
-      background-color: orange;
-    }
-
-    .funny {
-      position: relative;
-      left: 0rem;
-      width: 18rem;
-    }
-
-    .funny img {
-      position: relative;
-    }
-
-    .funny p {
-      font-size: 10px;
-    }
-
-    .Form {
-      position: relative;
-      left: 0rem;
-      background-color: yellow;
-      width: 13rem;
-    }
-
-    .div .input {
-      width: 18rem;
-    }
-
-    #Si{
-      width: 18rem;
-    }
-
-    #No{
-      width: 18rem;
-    }
-
-    .div2 .input {
-      width: 18rem;
-    }
-
-    .Form form {
-      width: 18rem;
-      position: relative;
-      right: 2rem;
-      background-color: green;
-    }
-
-    .Form strong {
-      font-size: 1rem;
-    }
-
-    .Form input{
-      width: 20rem;
-    }
-
-    .funny1 {
-      position: relative;
-      left: 0rem;
-      width: 18rem;
-      background-color: blue;
-    }
-
-    .funny1 p {
-      font-size: 10px;
-    }
+  
 
 }
 
