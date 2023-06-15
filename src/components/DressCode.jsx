@@ -22,7 +22,7 @@ const DressCode = () => {
         </div>
       </div>
 
-      <div className="Flowers2">
+      <div className="Flowers3">
         <img src="./flowers.jpg" alt="" />
       </div>
 

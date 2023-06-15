@@ -662,21 +662,48 @@
      .Fourth-Background {
       position: relative;
       left: 0rem;
-      background-color: purple;
     }
 
     .DressCode {
       position: relative;
-      left: 2rem;
+      left: -1.6rem;
       width: 15rem;
     }
 
     .DressCode p{
-      width: 15rem;
+      width: 18rem;
+      font-size: 41px;
+    }
+
+    .Formal {
+      font-size: 15px;
+      position: relative;
+      top: 2rem;
+    }
+
+    .Traje img {
+      width: 5rem;
+    }
+
+    .Traje p{
+      font-size: 16px;
+    }
+
+    .Dress img {
+      width: 5rem;
+    }
+
+    .Dress p{
+      font-size: 16px;
     }
 
     .Presents {
       width: 18rem;
+    }
+
+    .Presents h1{
+      position: relative;
+      bottom: 1rem;
     }
 
     .Presents p{
@@ -685,7 +712,20 @@
     }
 
     .presents-table img{
-      width: 2rem;
+      width: 8rem;
+      height: 5rem;
+    }
+
+    .liverpool {
+      position: relative;
+      left: 1.5rem;
+      top: 0.5rem;
+    }
+
+    .amazon {
+      position: relative;
+      top: 0.7rem;
+      right: 1rem;
     }
 
     .Fifth-Background {
@@ -1915,11 +1955,11 @@
     }
 
     .CereImage img{
-      width: 9rem;
+      width: 8.3rem;
     }
 
     .CereImage p{
-      font-size: 27px;
+      font-size: 26px;
     }
 
     .p1 {
@@ -1927,7 +1967,7 @@
     }
 
     .CereImage a {
-      font-size: 28px;
+      font-size: 26px;
     }
 
     .Ceremony {
@@ -1953,15 +1993,15 @@
     }
 
     .CereText h1{
-      font-size: 37px;
+      font-size: 35px;
     }
 
     .CereText h2{
-      font-size: 32px;
+      font-size: 30px;
     }
 
     .CereText p{
-      font-size: 30px;
+      font-size: 28px;
     }
 
     .p4 {
@@ -1982,19 +2022,19 @@
       justify-content: center;
       align-items: center;
       position: relative;
-      right: -1.5rem;
+      right: -5.5rem;
     }
 
      .CheersText h1{
-       font-size: 37px;
+       font-size: 35px;
     }
 
     .CheersText h2{
-       font-size: 32px;
+       font-size: 30px;
     }
 
     .CheersText p{
-      font-size: 30px;
+      font-size: 28px;
     }
 
     .Presents {
