@@ -43,7 +43,7 @@ const Schedule = () => {
           <div className="CheersText">
             <h1>Recepción</h1>
             <h2 className="p3">Quinta los Agapantos</h2>
-            <p className="p4">Cam. a las Moras 1532, 45640 San Agustín Jalisco</p>
+            <p className="p5">Cam. a las Moras 1532, 45640 San Agustín Jalisco</p>
           </div>
         </div>
       </div>

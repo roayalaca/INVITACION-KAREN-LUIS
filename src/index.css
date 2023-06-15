@@ -870,16 +870,36 @@
       left: 0.5rem;
     }
 
-
     .Third-Background {
       display: flex;
-      background-color: green;
       position: relative;
       left: 0rem;
     }
 
+    .Schedule {
+      font-size: 57px;
+      position: relative;
+      left: 2rem;
+    }
+
+    .Schedule1 {
+      position: relative;
+      right: 0rem;
+      width: 20rem;
+    }
+
+    .CereImage {
+      position: relative;
+      right: 1.5rem;
+      width: 13rem;
+    }
+
     .CereImage img{
-      width: 2rem;
+      width: 4rem;
+    }
+
+    .CereImage p{
+      font-size: 22px;
     }
 
     .p1 {
@@ -887,49 +907,76 @@
     }
 
     .CereImage a {
-      font-size: 10px;
+      font-size: 20px;
     }
 
     .Ceremony {
-      width: 15rem;
+      width: 18rem;
       position: relative;
-      left: 3rem;
+      left: 2rem;
     }
 
      .Cheers {
-      width: 15rem;
+       width: 18rem;
       position: relative;
-      left: 3rem;
+      left: 2rem;
+      top: 0.7rem;
+    }
+
+    .CereText {
+      width: 21rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      right: 0.2rem;
     }
 
     .CereText h1{
-      font-size: 0.5rem;
+      font-size: 20px;
     }
 
     .CereText h2{
-      font-size: 0.5rem;
+      font-size: 18px;
     }
 
     .CereText p{
-      font-size: 0.5rem;
+      font-size: 17px;
+    }
+
+
+    .CheersText {
+      width: 23rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
      .CheersText h1{
-      font-size: 0.5rem;
+       font-size: 20px;
     }
 
     .CheersText h2{
-      font-size: 0.5rem;
+       font-size: 18px;
     }
 
     .CheersText p{
-      font-size: 0.5rem;
+      font-size: 17px;
     }
 
     .Presents {
       width: 35rem;
     }
 
+    .Flowers2 img {
+      width: 14.5rem;
+      position:relative;
+      top: 1.5rem;
+    }
+
+    
      .Fourth-Background {
       position: relative;
       left: 0rem;
@@ -1150,16 +1197,36 @@
       top: 1rem;
     }
 
-
     .Third-Background {
       display: flex;
-      background-color: green;
       position: relative;
       left: 0rem;
     }
 
+    .Schedule {
+      font-size: 63px;
+      position: relative;
+      left: 2rem;
+    }
+
+    .Schedule1 {
+      position: relative;
+      right: 0rem;
+      width: 20rem;
+    }
+
+    .CereImage {
+      position: relative;
+      right: 1.5rem;
+      width: 13rem;
+    }
+
     .CereImage img{
-      width: 2rem;
+      width: 5.5rem;
+    }
+
+    .CereImage p{
+      font-size: 24px;
     }
 
     .p1 {
@@ -1167,49 +1234,75 @@
     }
 
     .CereImage a {
-      font-size: 10px;
+      font-size: 24px;
     }
 
     .Ceremony {
-      width: 15rem;
+      width: 32rem;
       position: relative;
-      left: 3rem;
+      left: -6rem;
     }
 
      .Cheers {
-      width: 15rem;
+      width: 32rem;
       position: relative;
-      left: 3rem;
+      left: -6rem;
+    }
+
+    .CereText {
+      width: 21rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      right: 0.2rem;
     }
 
     .CereText h1{
-      font-size: 0.5rem;
+      font-size: 30px;
     }
 
     .CereText h2{
-      font-size: 0.5rem;
+      font-size: 25px;
     }
 
     .CereText p{
-      font-size: 0.5rem;
+      font-size: 22px;
+    }
+
+
+    .CheersText {
+      width: 23rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
      .CheersText h1{
-      font-size: 0.5rem;
+       font-size: 30px;
     }
 
     .CheersText h2{
-      font-size: 0.5rem;
+       font-size: 25px;
     }
 
     .CheersText p{
-      font-size: 0.5rem;
+      font-size: 22px;
     }
 
     .Presents {
       width: 35rem;
     }
 
+    .Flowers2 img {
+      width: 16.5rem;
+      position:relative;
+      top: 1.5rem;
+    }
+
+    
      .Fourth-Background {
       position: relative;
       left: 0rem;
@@ -1434,13 +1527,34 @@
 
     .Third-Background {
       display: flex;
-      background-color: green;
       position: relative;
       left: 0rem;
     }
 
+    .Schedule {
+      font-size: 73px;
+      position: relative;
+      left: 2rem;
+    }
+
+    .Schedule1 {
+      position: relative;
+      right: -1rem;
+      width: 40rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+   
+
     .CereImage img{
-      width: 2rem;
+      width: 7.5rem;
+    }
+
+    .CereImage p{
+      font-size: 27px;
     }
 
     .p1 {
@@ -1448,48 +1562,86 @@
     }
 
     .CereImage a {
-      font-size: 10px;
+      font-size: 28px;
     }
 
     .Ceremony {
-      width: 15rem;
+      width: 40rem;
       position: relative;
-      left: 3rem;
+      left: 0rem;
     }
 
      .Cheers {
-      width: 15rem;
+      width: 40rem;
       position: relative;
-      left: 3rem;
+      left: 0rem;
+    }
+
+    .CereText {
+      width: 34rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      right: -1.5rem;
     }
 
     .CereText h1{
-      font-size: 0.5rem;
+      font-size: 35px;
     }
 
     .CereText h2{
-      font-size: 0.5rem;
+      font-size: 30px;
     }
 
     .CereText p{
-      font-size: 0.5rem;
+      font-size: 27px;
+    }
+
+    .p4 {
+      width: 29rem;
+    }
+
+    .p5{
+      width: 29rem;
+      position: relative;
+      left: 2.5rem;
+    }
+
+
+    .CheersText {
+      width: 23rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      right: -1.5rem;
     }
 
      .CheersText h1{
-      font-size: 0.5rem;
+       font-size: 35px;
     }
 
     .CheersText h2{
-      font-size: 0.5rem;
+       font-size: 30px;
     }
 
     .CheersText p{
-      font-size: 0.5rem;
+      font-size: 27px;
     }
 
     .Presents {
       width: 35rem;
     }
+
+    .Flowers2 img {
+      width: 19rem;
+      position:relative;
+      top: 1.5rem;
+    }
+
 
      .Fourth-Background {
       position: relative;
@@ -1732,132 +1884,131 @@
     width: 23rem;
   }
 
-  .Third-Background {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 120vh;
-  }
+  
+    .Third-Background {
+      display: flex;
+      position: relative;
+      left: 0rem;
+    }
 
-  .Schedule {
-    font-size: 90px;
-    position: relative;
-    right: 1.5rem;
-    bottom: 0.5rem;
-  }
+    .Schedule {
+      font-size: 80px;
+      position: relative;
+      left: 0rem;
+    }
 
-  .Schedule1 {
-    width: 50rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    right: 2rem;
-    bottom: 1rem;
-  }
+    .Schedule1 {
+      position: relative;
+      right: -1.5rem;
+      width: 50rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      bottom: 1.5rem;
+    }
 
-  .CereText {
-    width: 32rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 4rem;
-  }
+    .CereImage {
+      position: relative;
+      right: 1.5rem;
+      width: 13rem;
+    }
 
-  .CheersText {
-    width: 32rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 2rem;
-  }
+    .CereImage img{
+      width: 9rem;
+    }
 
-  .CereText h1 {
-    font-size: 2.5rem;
-  }
+    .CereImage p{
+      font-size: 27px;
+    }
 
-  .CereText p {
-    font-size: 25px;
-    margin-top: 0.3rem;
-  }
+    .p1 {
+      font-size: 10px;
+    }
 
-  .CereText h2 {
-    position: relative;
-    left: 0rem;
-    font-size: 1.7rem;
-  }
+    .CereImage a {
+      font-size: 28px;
+    }
 
-  .CereText p.p4 {
-    position: relative;
-    left: 0rem;
-    font-size: 1.3rem;
-  }
+    .Ceremony {
+      width: 45rem;
+      position: relative;
+      left: 0rem;
+    }
 
-  .CereText p.p5 {
-    position: relative;
-    left: 0rem;
-    font-size: 1.3rem;
-  }
+     .Cheers {
+      width: 45rem;
+      position: relative;
+      left: 0rem;
+    }
 
-  .CheersText h1 {
-    font-size: 2.5rem;
-  }
+    .CereText {
+      width: 34rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      right: -1.5rem;
+    }
 
-  .CheersText p {
-    font-size: 25px;
-    margin-top: 0.3rem;
-  }
+    .CereText h1{
+      font-size: 37px;
+    }
 
-  .CheersText h2 {
-    position: relative;
-    left: 0rem;
-    font-size: 1.7rem;
-  }
+    .CereText h2{
+      font-size: 32px;
+    }
 
-  .CheersText p.p4 {
-    position: relative;
-    font-size: 1.3rem;
-  }
+    .CereText p{
+      font-size: 30px;
+    }
 
-  .CheersText p.p5 {
-    position: relative;
-    font-size: 1.3rem;
-  }
+    .p4 {
+      width: 29rem;
+    }
 
-  .Cheers {
-    position: relative;
-    top: 1rem;
-  }
+    .p5{
+      width: 29rem;
+      position: relative;
+      left: 2.5rem;
+    }
 
-  .CheersText {
-    position: relative;
-    left: 3rem;
-  }
-  .CereImage {
-    position: relative;
-    left: 4rem;
-  }
 
-  .CereImage img {
-    width: 6rem;
-  }
+    .CheersText {
+      width: 23rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      right: -1.5rem;
+    }
 
-  .CereImage p.p1 {
-    font-size: 1.8rem;
-    position: relative;
-    top: 0.5rem;
-  }
+     .CheersText h1{
+       font-size: 37px;
+    }
 
-  .Flowers2 img {
-    width: 19rem;
-    position: relative;
-    top: 1.5rem;
-  }
+    .CheersText h2{
+       font-size: 32px;
+    }
+
+    .CheersText p{
+      font-size: 30px;
+    }
+
+    .Presents {
+      width: 35rem;
+    }
+
+    .Flowers2 {
+      position: relative;
+      bottom: 2rem;
+    }
+
+    .Flowers2 img {
+      width: 23rem;
+    }
 
   .Fourth-Background {
     display: flex;
@@ -1904,16 +2055,6 @@
     left: 2rem;
   }
 
-  .Flowers2 {
-    position: relative;
-    bottom: 2.2rem;
-    left: 1rem;
-    width: 18rem;
-  }
-
-  .Flowers2 img {
-    width: 17rem;
-  }
 
   .Presents h1 {
     font-size: 3.3rem;
