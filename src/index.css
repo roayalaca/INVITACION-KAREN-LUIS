@@ -453,36 +453,38 @@
       font-size: 52px;
       position: relative;
       left: 1rem;
-      bottom: 5rem;
+      bottom: 5.5rem;
     }
 
     .Date {
-      width: 15rem;
+      width: 17rem;
       position: relative;
-      bottom: 3rem;
+      bottom: 3.5rem;
     }
 
     .Date p{
-      font-size: 18px;
+      font-size: 21px;
       position: relative;
-      right: 0.3rem;
+      right: -0.4rem;
     }
 
     .Date h1{
-      font-size: 20px;
+      font-size: 23px;
       position: relative;
-      left: 2rem;
+      left: 2.2rem;
     }
 
     .Guadalajara {
       position: relative;
       left: -1.3rem;
+
     }
 
     .Counter {
       width: 18rem;
       position: relative;
       bottom: 1rem;
+      right: 0.5rem;
     }
 
     .days1{
@@ -545,6 +547,7 @@
       position: relative;
       top: 0rem;
       width: 13rem;
+      left: 0.4rem;
     }
 
     .Third-Background {
