@@ -596,7 +596,7 @@
       position: relative;
       left: 0rem;
       background-color: yellow;
-      width: 15rem;
+      width: 13rem;
     }
 
     .div .input {
@@ -633,7 +633,8 @@
     .funny1 {
       position: relative;
       left: 0rem;
-      width: 20rem;
+      width: 18rem;
+      background-color: blue;
     }
 
     .funny1 p {
