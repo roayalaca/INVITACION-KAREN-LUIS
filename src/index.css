@@ -603,38 +603,50 @@
        width: 18rem;
       position: relative;
       left: 2rem;
+      top: 0.7rem;
     }
 
     .CereText {
       width: 21rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      right: 0.2rem;
     }
 
     .CereText h1{
-      font-size: 20px;
+      font-size: 18.5px;
     }
 
     .CereText h2{
-      font-size: 18px;
+      font-size: 16.5px;
     }
 
     .CereText p{
       font-size: 16px;
     }
 
+
     .CheersText {
-      width: 21rem;
+      width: 23rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
      .CheersText h1{
-       font-size: 20px;
+       font-size: 18.5px;
     }
 
     .CheersText h2{
-      font-size: 18px;
+       font-size: 16.5px;
     }
 
     .CheersText p{
-      font-size: 16px;
+      font-size: 16.5px;
     }
 
     .Presents {
@@ -643,6 +655,8 @@
 
     .Flowers2 img {
       width: 13rem;
+      position:relative;
+      top: 1rem;
     }
 
      .Fourth-Background {

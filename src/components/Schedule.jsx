@@ -24,8 +24,7 @@ const Schedule = () => {
           <div className="CereText">
             <h1>Ceremonia Religiosa</h1>
             <h2 className="p3">Parroquia San Juan Pablo II</h2>
-            <p className="p4">P° de la Reina 2, Villa California, 45640 San</p>
-            <p className="p5">Agustin, Jal</p>
+            <p className="p4">P° de la Reina 2, Villa California, 45640 San Agustín, Jal</p>
           </div>
         </div>
 
@@ -44,8 +43,7 @@ const Schedule = () => {
           <div className="CheersText">
             <h1>Recepción</h1>
             <h2 className="p3">Quinta los Agapantos</h2>
-            <p className="p4">Cam. a las Moras 1532, 45640 San</p>
-            <p className="p5">Agustin, Jal</p>
+            <p className="p4">Cam. a las Moras 1532, 45640 San Agustín Jalisco</p>
           </div>
         </div>
       </div>
