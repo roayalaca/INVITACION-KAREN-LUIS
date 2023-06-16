@@ -6,19 +6,14 @@
   box-sizing: border-box;
 }
 
-.First-Background {
-  background-color: red;
-}
-
-
-.slider{
+.slider {
   width: 1000px;
   height: 500px;
   border-radius: 10px;
   overflow: hidden;
 }
 
-.slides{
+.slides {
   width: 500%;
   height: 500px;
   display: flex;
@@ -33,12 +28,12 @@
   transition: 2s;
 }
 
-.slide img{
+.slide img {
   width: 800px;
   height: 500px;
 }
 
-.navigation-manual{
+.navigation-manual {
   position: absolute;
   width: 800px;
   margin-top: -40px;
@@ -46,36 +41,35 @@
   justify-content: center;
 }
 
-.manual-btn{
-  border: 2px solid #40D3DC;
+.manual-btn {
+  border: 2px solid #40d3dc;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
   transition: 1s;
 }
 
-.manual-btn:not(:last-child){
+.manual-btn:not(:last-child) {
   margin-right: 40px;
 }
 
-.manual-btn:hover{
-  background: #40D3DC;
+.manual-btn:hover {
+  background: #40d3dc;
 }
 
-#radio1:checked ~ .first{
+#radio1:checked ~ .first {
   margin-left: 0;
 }
 
-#radio2:checked ~ .first{
+#radio2:checked ~ .first {
   margin-left: -20%;
 }
 
-#radio3:checked ~ .first{
+#radio3:checked ~ .first {
   margin-left: -40%;
 }
 
-
-.navigation-auto{
+.navigation-auto {
   position: absolute;
   display: flex;
   width: 800px;
@@ -83,8 +77,8 @@
   margin-top: 460px;
 }
 
-.navigation-auto div{
-  border: 2px solid #40D3DC;
+.navigation-auto div {
+  border: 2px solid #40d3dc;
   padding: 5px;
   border-radius: 10px;
   transition: 1s;
@@ -99,24 +93,24 @@
   min-height: 120vh;
 }
 
-.navigation-auto div:not(:last-child){
+.navigation-auto div:not(:last-child) {
   margin-right: 40px;
 }
 
-#radio1:checked ~ .navigation-auto .auto-btn1{
-  background-color: #40D3DC;
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background-color: #40d3dc;
 }
 
-#radio2:checked ~ .navigation-auto .auto-btn2{
-  background-color: #40D3DC;
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background-color: #40d3dc;
 }
 
-#radio3:checked ~ .navigation-auto .auto-btn3{
-  background-color: #40D3DC;
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  background-color: #40d3dc;
 }
 
-#radio4:checked ~ .navigation-auto .auto-btn4{
-  background-color: #40D3DC;
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  background-color: #40d3dc;
 }
 
 .My-wedding {
@@ -543,34 +537,32 @@
 }
 
 @media (max-width: 320px) {
+  .slider {
+    max-width: 320px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
 
-    
-  .slider{
-  max-width: 320px;
-  height: 500px;
-  border-radius: 10px;
-  overflow: hidden;
-}
+  .slides img {
+    max-width: 320px;
+  }
 
-.slides img{
-  max-width: 320px;
-}
-
-.navigation-manual {
+  .navigation-manual {
     position: absolute;
     max-width: 320px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
-}
+  }
 
-.navigation-auto {
+  .navigation-auto {
     position: absolute;
     max-width: 320px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
-}
+  }
 
   .Second-Background {
     display: flex;
@@ -1011,6 +1003,555 @@
 }
 
 @media (min-width: 321px) {
+  .First-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slider {
+    max-width: 320px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .slides img {
+    max-width: 320px;
+    height: 400px;
+    position: relative;
+    top: 3rem;
+  }
+
+  .navigation-manual {
+    position: absolute;
+    max-width: 320px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navigation-auto {
+    position: absolute;
+    max-width: 320px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Second-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .My-wedding {
+    font-size: 57px;
+    position: relative;
+    left: 0.7rem;
+    bottom: 2.5rem;
+  }
+
+  .Date {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 2rem;
+  }
+
+  .Date p {
+    font-size: 23px;
+    position: relative;
+    right: 2rem;
+  }
+
+  .Date h1 {
+    font-size: 25px;
+    position: relative;
+    left: 0.2rem;
+  }
+
+  .Guadalajara {
+    position: relative;
+    bottom: 0.2rem;
+  }
+
+  .Counter {
+    width: 19rem;
+    position: relative;
+    right: 0.8rem;
+  }
+
+  .days1 {
+    width: 4rem;
+  }
+
+  .days {
+    font-size: 19px;
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  .days1 small {
+    font-size: 16px;
+  }
+
+  .hours1 {
+    width: 4rem;
+  }
+
+  .hours {
+    font-size: 19px;
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  .hours1 small {
+    font-size: 16px;
+  }
+
+  .minutes1 {
+    width: 4rem;
+  }
+
+  .minutes {
+    font-size: 19px;
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  .minutes1 small {
+    font-size: 16px;
+  }
+
+  .seconds1 {
+    width: 4rem;
+  }
+
+  .seconds {
+    font-size: 19px;
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  .seconds1 small {
+    font-size: 16px;
+  }
+
+  .Flowers img {
+    width: 14rem;
+    position: relative;
+    left: 0.5rem;
+  }
+
+  .Third-Background {
+    display: flex;
+    position: relative;
+    left: 0rem;
+  }
+
+  .Schedule {
+    font-size: 57px;
+    position: relative;
+    left: 2rem;
+  }
+
+  .Schedule1 {
+    position: relative;
+    right: 0rem;
+    width: 20rem;
+  }
+
+  .CereImage {
+    position: relative;
+    right: 1.5rem;
+    width: 13rem;
+  }
+
+  .CereImage img {
+    width: 4rem;
+  }
+
+  .CereImage p {
+    font-size: 22px;
+  }
+
+  .p1 {
+    font-size: 10px;
+  }
+
+  .CereImage a {
+    font-size: 20px;
+  }
+
+  .Ceremony {
+    width: 18rem;
+    position: relative;
+    left: 2rem;
+  }
+
+  .Cheers {
+    width: 18rem;
+    position: relative;
+    left: 2rem;
+    top: 0.7rem;
+  }
+
+  .CereText {
+    width: 21rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 0.2rem;
+  }
+
+  .CereText h1 {
+    font-size: 20px;
+  }
+
+  .CereText h2 {
+    font-size: 18px;
+  }
+
+  .CereText p {
+    font-size: 17px;
+  }
+
+  .CheersText {
+    width: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .CheersText h1 {
+    font-size: 20px;
+  }
+
+  .CheersText h2 {
+    font-size: 18px;
+  }
+
+  .CheersText p {
+    font-size: 17px;
+  }
+
+  .Presents {
+    width: 35rem;
+  }
+
+  .Flowers2 img {
+    width: 14.5rem;
+    position: relative;
+    top: 1.5rem;
+  }
+
+  .Fourth-Background {
+    position: relative;
+    left: 0rem;
+  }
+
+  .DressCode {
+    position: relative;
+    left: -1.6rem;
+    width: 15rem;
+  }
+
+  .DressCode p {
+    width: 19rem;
+    font-size: 43px;
+    position: relative;
+    right: 0.3rem;
+  }
+
+  .Formal {
+    font-size: 16px;
+    position: relative;
+    top: 2rem;
+  }
+
+  .Traje img {
+    width: 5.5rem;
+  }
+
+  .Traje p {
+    font-size: 18px;
+  }
+
+  .Dress img {
+    width: 5.5rem;
+  }
+
+  .Dress p {
+    font-size: 18px;
+  }
+
+  .Presents {
+    width: 18rem;
+  }
+
+  .Presents .p-presents {
+    position: relative;
+    bottom: 0.5rem;
+    left: 1.2rem;
+    font-family: "Great Vibes", cursive;
+    font-size: 38px;
+    width: 16rem;
+  }
+
+  .Presents p {
+    font-size: 20.5px;
+    width: 18rem;
+  }
+
+  .presents-table img {
+    width: 8.5rem;
+    height: 5rem;
+  }
+
+  .presents-table {
+    width: 20rem;
+  }
+
+  .liverpool {
+    position: relative;
+    left: 1.3rem;
+    top: 0.5rem;
+  }
+
+  .amazon {
+    position: relative;
+    top: 0.7rem;
+    right: 1.2rem;
+  }
+
+  .Fifth-Background {
+    position: relative;
+    left: 0rem;
+  }
+
+  .funny {
+    position: relative;
+    left: 0rem;
+    width: 18rem;
+  }
+
+  .funny .attendance {
+    font-size: 43px;
+    font-family: "Great Vibes", cursive;
+    position: relative;
+    bottom: 0.5rem;
+  }
+
+  .funny .phrase {
+    font-size: 18.5px;
+    position: relative;
+    bottom: 0.4rem;
+    width: 18rem;
+  }
+
+  .funny img {
+    position: relative;
+    width: 15rem;
+  }
+
+  .Form {
+    width: 19.5rem;
+    height: 19rem;
+    position: relative;
+    right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0rem;
+  }
+
+  .Form form {
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 2rem;
+  }
+
+  .confirmation input {
+    background-color: red;
+  }
+
+  .options {
+    display: flex;
+  }
+
+  .div label {
+    font-size: 29px;
+  }
+
+  .div {
+    position: relative;
+    left: 2rem;
+    width: 17rem;
+  }
+
+  .input {
+    width: 17rem;
+  }
+
+  .div1 {
+    width: 18rem;
+    position: relative;
+    left: 2rem;
+    top: 0.8rem;
+  }
+
+  .div2 {
+    width: 17rem;
+  }
+
+  .yes {
+    width: 9rem;
+    display: flex;
+  }
+
+  .no {
+    width: 10rem;
+    display: flex;
+  }
+
+  .yes label {
+    font-size: 19px;
+  }
+
+  .no label {
+    font-size: 19px;
+  }
+
+  #Si {
+    position: relative;
+    right: -0.3rem;
+    top: 0.2rem;
+  }
+
+  #No {
+    position: relative;
+    right: -0.3rem;
+    top: 0.2rem;
+  }
+
+  .input1 {
+    width: 2rem;
+  }
+
+  .input2 {
+    width: 2rem;
+  }
+
+  .div1 strong {
+    font-size: 29px;
+  }
+
+  .div2 {
+    position: relative;
+    left: 2rem;
+    top: 0.3rem;
+  }
+
+  .div2 label {
+    font-size: 29px;
+  }
+
+  .Form button {
+    position: relative;
+    left: 2.2rem;
+    width: 4.5rem;
+    height: 2rem;
+    font-size: 16px;
+  }
+
+  .funny1 {
+    position: relative;
+    left: 0rem;
+    width: 18rem;
+  }
+
+  .funny1 img {
+    width: 15rem;
+  }
+
+  .funny1 p {
+    font-size: 18.5px;
+    position: relative;
+    bottom: -0.4rem;
+    width: 17rem;
+  }
+}
+
+@media (min-width: 390px) and (orientation: landscape) {
+
+ 
+
+  .slide {
+    position: relative;
+    bottom: 3.5rem;
+  }
+
+  .navigation-manual{
+    position: relative;
+    bottom: 1.5rem;
+  }
+
+   .navigation-auto{
+    position: relative;
+    bottom: 1.5rem;
+  }
+
+  .My-wedding p {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 390px) {
+  .First-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slider {
+    max-width: 320px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .slides img {
+    max-width: 320px;
+    height: 430px;
+    position: relative;
+    top: 2rem;
+  }
+
+  .navigation-manual {
+    position: absolute;
+    max-width: 320px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navigation-auto {
+    position: absolute;
+    max-width: 320px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+  }
+
   .Second-Background {
     display: flex;
     justify-content: center;
@@ -1464,6 +2005,43 @@
 }
 
 @media (min-width: 576px) {
+  .First-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+
+  .slider {
+    max-width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .slides img {
+    max-width: 500px;
+    height: 430px;
+    position: relative;
+    top: 2.3rem;
+  }
+
+  .navigation-manual {
+    position: absolute;
+    max-width: 500px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navigation-auto {
+    position: absolute;
+    max-width: 500px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+  }
+
   .Second-Background {
     display: flex;
     justify-content: center;
@@ -1937,6 +2515,43 @@
 }
 
 @media (min-width: 768px) {
+  .First-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+
+  .slider {
+    max-width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .slides img {
+    max-width: 600px;
+    height: 430px;
+    position: relative;
+    top: 2.3rem;
+  }
+
+  .navigation-manual {
+    position: absolute;
+    max-width: 600px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navigation-auto {
+    position: absolute;
+    max-width: 600px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+  }
+
   .Second-Background {
     display: flex;
     justify-content: center;
@@ -2431,21 +3046,55 @@
 }
 
 @media (min-width: 992px) {
-  .App {
+  .First-Background {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    min-width: 992px;
-    min-height: 120vh;
+    background-color: #fff;
+    height: 120vh;
   }
 
-  .slider{
-  min-width: 992px;
-  height: 500px;
-  border-radius: 10px;
-  overflow: hidden;
-}
+  .slider {
+    width: 10px;
+    height: 125vh;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    left: 0rem;
+    bottom: 5.1rem;
+    background-color: black;
+  }
+
+  .slides img {
+    max-width: 700px;
+    height: 75vh;
+    position: relative;
+    top: 2.3rem;
+    left: 9rem;
+  }
+
+  .navigation-manual {
+    position: absolute;
+    max-width: 700px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navigation-auto {
+    position: absolute;
+    max-width: 700px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .slider {
+    min-width: 992px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
 
   .Second-Background {
     display: flex;

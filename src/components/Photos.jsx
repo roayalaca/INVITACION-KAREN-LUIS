@@ -13,6 +13,9 @@ const Photos = () => {
 
   return (
     <div className='First-Background'>
+
+      
+
       <div className="slider">
         <div className="slides">
           <input type="radio" name="radio-btn" id="radio1" />
@@ -43,6 +46,8 @@ const Photos = () => {
           <label htmlFor="radio2" className="manual-btn"></label>
           <label htmlFor="radio3" className="manual-btn"></label>
         </div>
+
+        
       </div>
     </div>
   );
