@@ -775,9 +775,11 @@
     }
 
     .Form form{
-      width: 20rem;
+      width: 17rem;
       display: flex;
       flex-direction: column;
+      position: relative;
+      right: 2rem;
     }
 
     .Form .input{
