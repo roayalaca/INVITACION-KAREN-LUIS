@@ -1187,12 +1187,11 @@
       right: 1.2rem;
     }
 
-   
-    .Fifth-Background {
+   .Fifth-Background {
       position: relative;
       left: 0rem;
-      background-color: orange;
     }
+
 
     .funny {
       position: relative;
@@ -1200,62 +1199,158 @@
       width: 18rem;
     }
 
-    .funny img {
+    .funny .attendance {
+      font-size: 43px;
+      font-family: "Great Vibes", cursive;
       position: relative;
+      bottom: 0.5rem;
     }
 
-    .funny p {
-      font-size: 10px;
+    .funny .phrase {
+      font-size: 18.5px;
+      position: relative;
+      bottom: 0.4rem;
+      width: 18rem;
+    }
+
+    .funny img {
+      position: relative;
+      width: 15rem;
     }
 
     .Form {
-      position: relative;
-      left: 0rem;
-      background-color: yellow;
-      width: 13rem;
-    }
-
-    .div .input {
-      width: 18rem;
-    }
-
-    #Si{
-      width: 18rem;
-    }
-
-    #No{
-      width: 18rem;
-    }
-
-    .div2 .input {
-      width: 18rem;
-    }
-
-    .Form form {
-      width: 18rem;
+      width: 19.5rem;
+      height: 19rem;
       position: relative;
       right: 2rem;
-      background-color: green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 0rem;
     }
 
-    .Form strong {
-      font-size: 1rem;
+    .Form form{
+      width: 17rem;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      right: 2rem;
     }
 
-    .Form input{
-      width: 20rem;
+    .confirmation input {
+      background-color: red;
     }
 
+
+    .options {
+      display: flex;
+    }
+
+    .div label {
+      font-size: 29px;
+    }
+
+
+    .div {
+      position: relative;
+      left: 2rem;
+      width: 17rem;
+    }
+
+    .input{
+      width: 17rem;
+    }
+
+    .div1 {
+      width: 18rem;
+      position: relative;
+      left: 2rem;
+      top: 0.8rem;
+    }
+
+    .div2 {
+      width: 17rem;
+    }
+
+    .yes {
+      width: 9rem;
+      display: flex;
+    }
+
+    
+    .no {
+      width: 10rem;
+      display: flex;
+    }
+
+    .yes label {
+      font-size: 19px;
+    }
+
+    .no label {
+      font-size: 19px;
+    }
+
+    #Si {
+      position: relative;
+      right: -0.3rem;
+      top: 0.2rem;
+    }
+
+    #No {
+      position: relative;
+       right: -0.3rem;
+       top: 0.2rem;
+    }
+
+
+    .input1 {
+      width: 2rem;
+    }
+
+    .input2 {
+      width: 4rem;
+    }
+
+    .div1 strong {
+      font-size: 29px;
+    }
+
+    .div2 {
+      position: relative;
+      left: 2rem;
+      top: 0.3rem;
+    }
+
+    .div2 label {
+      font-size: 29px;
+    }
+
+    .Form button {
+      position: relative;
+      left: 2.2rem;
+      width: 4.5rem;
+      height: 2rem;
+      font-size: 16px;
+    }
+   
     .funny1 {
       position: relative;
       left: 0rem;
       width: 18rem;
-      background-color: blue;
+    }
+
+    .funny1 img {
+      width: 15rem;
     }
 
     .funny1 p {
-      font-size: 10px;
+      font-size: 18.5px;
+      position: relative;
+      bottom: -0.4rem;
+      width: 17rem;
     }
+
 }
 
 @media (min-width: 576px){
