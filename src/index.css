@@ -1493,8 +1493,6 @@
 
 @media (min-width: 390px) and (orientation: landscape) {
 
- 
-
   .slide {
     position: relative;
     bottom: 3.5rem;
@@ -1513,6 +1511,12 @@
   .My-wedding p {
     font-size: 50px;
   }
+
+  .Fifth-Background {
+    position: relative;
+    top: 3rem;
+  }
+
 }
 
 @media (min-width: 390px) {
