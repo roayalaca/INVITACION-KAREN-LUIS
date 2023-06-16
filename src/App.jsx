@@ -4,6 +4,7 @@ import Mywedding from "./components/Mywedding";
 import Schedule from "./components/Schedule";
 import DressCode from "./components/DressCode";
 import Attendance from "./components/Attendance";
+import Photos from "./components/Photos";
 
 
 
@@ -17,6 +18,8 @@ function App() {
         {/* <div className="First-Background">
           <p>KAREN & LUIS</p>
         </div> */}
+
+        <Photos/>
 
         <Mywedding />
         <Schedule />
