@@ -37,7 +37,7 @@ const Attendance = () => {
       <div className="funny">
         <img src="./flowers.jpg" alt="" />
         <p className="attendance">Confirma tu asistencia</p>
-        <p>
+        <p className="phrase">
           ***Te invitamos cordialmente a una noche llena de amor, luz y perreo
           intenso hasta el subsuelo. ¡Te esperamos!
         </p>
@@ -69,6 +69,7 @@ const Attendance = () => {
                   Sí asistiré
                 </label>
                 <input
+                  className="input1"
                   name="attendance"
                   id="Si"
                   type="radio"
@@ -82,6 +83,7 @@ const Attendance = () => {
                   No asistiré
                 </label>
                 <input
+                  className="input2"
                   name="attendance"
                   id="No"
                   type="radio"
@@ -116,7 +118,7 @@ const Attendance = () => {
       </div>
 
       <div className="funny1">
-        <p>
+        <p className="phrase">
           * Ah, y besos de tres, pero no con nosotros porque ya seremos papas
           casadas, literalmente.
         </p>

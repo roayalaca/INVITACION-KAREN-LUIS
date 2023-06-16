@@ -676,7 +676,7 @@
     }
 
     .Formal {
-      font-size: 15px;
+      font-size: 13px;
       position: relative;
       top: 2rem;
     }
@@ -735,8 +735,8 @@
     .Fifth-Background {
       position: relative;
       left: 0rem;
-      background-color: orange;
     }
+
 
     .funny {
       position: relative;
@@ -744,61 +744,139 @@
       width: 18rem;
     }
 
+    .funny .attendance {
+      font-size: 41px;
+      font-family: "Great Vibes", cursive;
+      position: relative;
+      bottom: 0.5rem;
+    }
+
+    .funny .phrase {
+      font-size: 17.5px;
+      position: relative;
+      bottom: 0.4rem;
+      width: 18rem;
+    }
+
     .funny img {
       position: relative;
-    }
-
-    .funny p {
-      font-size: 10px;
-    }
-
-    .Form {
-      position: relative;
-      left: 0rem;
-      background-color: yellow;
       width: 13rem;
     }
 
-    .div .input {
+    .Form {
       width: 18rem;
-    }
-
-    #Si{
-      width: 18rem;
-    }
-
-    #No{
-      width: 18rem;
-    }
-
-    .div2 .input {
-      width: 18rem;
-    }
-
-    .Form form {
-      width: 18rem;
+      height: 18rem;
       position: relative;
       right: 2rem;
-      background-color: green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 0rem;
     }
 
-    .Form strong {
-      font-size: 1rem;
-    }
-
-    .Form input{
+    .Form form{
       width: 20rem;
+      display: flex;
+      flex-direction: column;
     }
 
+    .Form .input{
+      width: 15rem;
+    }
+
+    .options {
+      display: flex;
+    }
+
+    .div label {
+      font-size: 27px;
+    }
+
+    .div {
+      position: relative;
+      left: 2rem;
+      width: 17rem;
+    }
+
+    .div1 {
+      width: 17rem;
+      position: relative;
+      left: 2rem;
+      top: 0.8rem;
+    }
+
+    .div2 {
+      width: 17rem;
+    }
+
+    .yes {
+      width: 8rem;
+      display: flex;
+    }
+
+    
+    .no {
+      width: 9rem;
+      display: flex;
+    }
+
+    .yes label {
+      font-size: 18px;
+    }
+
+    .no label {
+      font-size: 18px;
+    }
+
+    #Si {
+      position: relative;
+      right: 0.5rem;
+    }
+
+    #No {
+      position: relative;
+      right: 1rem;
+    }
+
+
+    .input1 {
+      width: 3rem;
+    }
+
+    .input2 {
+      width: 4rem;
+    }
+
+    .div1 strong {
+      font-size: 27px;
+    }
+
+    .div2 {
+      position: relative;
+      left: 2rem;
+      top: 0.3rem;
+    }
+
+    .div2 label {
+      font-size: 27px;
+    }
+
+    .Form button {
+      position: relative;
+      left: 2.2rem;
+    }
+   
     .funny1 {
       position: relative;
       left: 0rem;
       width: 18rem;
-      background-color: blue;
     }
 
     .funny1 p {
-      font-size: 10px;
+      font-size: 17.5px;
+      position: relative;
+      bottom: -0.4rem;
+      width: 17rem;
     }
 }
 
@@ -1032,8 +1110,10 @@
     }
 
     .DressCode p{
-      width: 18.5rem;
-      font-size: 42px;
+      width: 19rem;
+      font-size: 43px;
+      position: relative;
+      right: 0.3rem;
     }
 
     .Formal {
@@ -1069,6 +1149,7 @@
       left: 1.2rem;
       font-family: "Great Vibes", cursive;
       font-size: 38px;
+      width: 16rem;
     }
 
     .Presents p{
@@ -1079,6 +1160,10 @@
     .presents-table img{
       width: 8.5rem;
       height: 5rem;
+    }
+
+    .presents-table {
+      width: 20rem;
     }
 
     .liverpool {
@@ -1390,34 +1475,92 @@
       top: 1.5rem;
     }
 
-    
      .Fourth-Background {
       position: relative;
       left: 0rem;
-      background-color: purple;
     }
 
     .DressCode {
       position: relative;
-      left: 2rem;
+      left: -1.6rem;
       width: 15rem;
     }
 
     .DressCode p{
-      width: 15rem;
+      width: 29rem;
+      font-size: 60px;
+      position: relative;
+      right: 4rem;
+    }
+
+    .Formal {
+      font-size: 19px;
+      position: relative;
+      top: 2rem;
+    }
+
+    .Traje img {
+      width: 6.5rem;
+    }
+
+    .Traje p{
+      font-size: 22px;
+    }
+
+    .Dress img {
+      width: 6.5rem;
+    }
+
+    .Dress p{
+      font-size: 22px;
+    }
+
+    .Flowers3 img {
+      width: 16rem;
     }
 
     .Presents {
       width: 18rem;
+
+    }
+
+    .Presents .p-presents{
+      position: relative;
+      bottom: 0.5rem;
+      left: 1.2rem;
+      font-family: "Great Vibes", cursive;
+      font-size: 48px;
+      width: 20rem;
     }
 
     .Presents p{
-      font-size: 20px;
-      width: 18rem;
+      font-size: 22px;
+      width: 29rem;
+      position: relative;
+      bottom: 0.7rem;
     }
 
     .presents-table img{
-      width: 2rem;
+      width: 12.5rem;
+      height: 6rem;
+      position: relative;
+      right: 4rem;
+    }
+
+    .presents-table {
+      width: 20rem;
+    }
+
+    .liverpool {
+      position: relative;
+      left: 1.3rem;
+      top: 0.5rem;
+    }
+
+    .amazon {
+      position: relative;
+      top: 0.7rem;
+      right: 1.2rem;
     }
 
     .Fifth-Background {
@@ -1731,34 +1874,103 @@
     }
 
 
-     .Fourth-Background {
+    .Fourth-Background {
       position: relative;
       left: 0rem;
-      background-color: purple;
+    }
+
+    .Dressing {
+      position: relative;
+      bottom: 1rem;  
     }
 
     .DressCode {
       position: relative;
-      left: 2rem;
+      left: -1.6rem;
       width: 15rem;
     }
 
     .DressCode p{
-      width: 15rem;
+      width: 32rem;
+      font-size: 73px;
+      position: relative;
+      right: 6.5rem;
+    }
+
+    .Formal {
+      font-size: 21px;
+      position: relative;
+      top: 2rem;
+    }
+
+    .Traje img {
+      width: 7.5rem;
+    }
+
+    .Traje p{
+      font-size: 24px;
+    }
+
+    .Dress img {
+      width: 7.5rem;
+    }
+
+    .Dress p{
+      font-size: 24px;
+    }
+
+    .Flowers3 img {
+      width: 17rem;
+      position: relative;
+      bottom: 1rem;
     }
 
     .Presents {
       width: 18rem;
+      position: relative;
+      bottom: 1.2rem;
+    }
+
+    .Presents .p-presents{
+      position: relative;
+      bottom: 1.5rem;
+      left: 1.2rem;
+      font-family: "Great Vibes", cursive;
+      font-size: 55px;
+      width: 22rem;
     }
 
     .Presents p{
-      font-size: 20px;
-      width: 18rem;
+      font-size: 24px;
+      width: 40rem;
+      position: relative;
+      bottom: 1.7rem;
     }
 
     .presents-table img{
-      width: 2rem;
+      width: 13.5rem;
+      height: 6.3rem;
+      position: relative;
+      right: 4rem;
+      bottom: 2rem;
     }
+
+    .presents-table {
+      width: 20rem;
+    }
+
+    .liverpool {
+      position: relative;
+      left: 1.3rem;
+      top: 0.5rem;
+    }
+
+    .amazon {
+      position: relative;
+      top: 0.7rem;
+      right: 1.2rem;
+    }
+
 
     .Fifth-Background {
       position: relative;
@@ -2098,75 +2310,111 @@
       width: 23rem;
     }
 
-  .Fourth-Background {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 120vh;
-  }
+   .Fourth-Background {
+      position: relative;
+      left: 0rem;
+    }
 
+    .Dressing {
+      position: relative;
+      bottom: 1.2rem;  
+    }
 
-  .DressCode {
-    font-size: 75px;
-    width: 33rem;
-  }
+    .DressCode {
+      position: relative;
+      left: -1.6rem;
+      width: 15rem;
+    }
 
-  .Dressing {
-    position: relative;
-    bottom: 0.5rem;
-  }
+    .DressCode p{
+      width: 35rem;
+      font-size: 75px;
+      position: relative;
+      right: 8rem;
+    }
 
-  .Formal {
-    font-size: 1.1rem;
-  }
+    .Formal {
+      font-size: 25px;
+      position: relative;
+      top: 2rem;
+    }
 
-  .Formal h1 {
-    position: relative;
-    top: 2.8rem;
-  }
+    .Traje img {
+      width: 7.3rem;
+      position: relative;
+      right: 3rem;
+    }
 
-  .Dressing img {
-    width: 7rem;
-  }
+    .Traje p{
+      font-size: 24px;
+      position: relative;
+      right: 3rem;
+    }
 
-  .Dressing p {
-    font-size: 1.5rem;
-  }
+    .Dress img {
+       width: 7.3rem;
+      position: relative;
+      left: 3rem;
+    }
 
-  .Traje {
-    position: relative;
-    right: 2rem;
-  }
+    .Dress p{
+      font-size: 24px;
+      position: relative;
+      left: 3rem;
+    }
 
-  .Dress {
-    position: relative;
-    left: 2rem;
-  }
+    .Flowers3 img {
+      width: 19rem;
+      position: relative;
+      bottom: 1.2rem;
+    }
 
+    .Presents {
+      width: 18rem;
+      position: relative;
+      bottom: 2.1rem;
+    }
 
-  .Presents h1 {
-    font-size: 3.3rem;
-    position: relative;
-    bottom: 2.8rem;
-    left: 0.2rem;
-  }
+    .Presents .p-presents{
+      position: relative;
+      bottom: 1.2rem;
+      left: 2.2rem;
+      font-family: "Great Vibes", cursive;
+      font-size: 65px;
+      width: 32rem;
+    }
 
-  .Presents p {
-    width: 49rem;
-    font-size: 1.5rem;
-    position: relative;
-    bottom: 2.8rem;
-  }
+    .Presents p{
+      font-size: 27px;
+      width: 50rem;
+      position: relative;
+      bottom: 1.7rem;
+    }
 
-  .presents-table {
-    position: relative;
-    top: -1.52rem;
-  }
+    .presents-table img{
+      width: 16.5rem;
+      height: 7.3rem;
+      position: relative;
+      right: 8rem;
+      bottom: 2rem;
+    }
 
-  .presents-table img {
-    width: 17rem;
-    height: 7rem;
-  }
+    .presents-table {
+      width: 20rem;
+    }
+
+    .liverpool {
+      position: relative;
+      left: 0.3rem;
+      top: 0.5rem;
+    }
+
+    .amazon {
+      position: relative;
+      top: 0.7rem;
+      right: 0.2rem;
+    }
+
 
   .Fifth-Background {
     display: flex;
