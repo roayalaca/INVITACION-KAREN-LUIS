@@ -1514,9 +1514,25 @@
     font-size: 50px;
   }
 
-  .Fifth-Background {
+  .Second-Background {
     position: relative;
     top: 3rem;
+  }
+
+  .Third-Background {
+    position: relative;
+    top: 12rem;
+  }
+
+   .Fourth-Background {
+    position: relative;
+    top: 23rem;
+  }
+
+
+  .Fifth-Background {
+    position: relative;
+    top: 34rem;
   }
 
 }
