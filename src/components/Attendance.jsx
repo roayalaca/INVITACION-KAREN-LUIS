@@ -16,7 +16,7 @@ const Attendance = () => {
 
     if(name && attendance && phone){
        axios
-         .post("http://localhost:8000/invitados", data)
+         .post("https://boda-karen-luis-api.onrender.com", data)
          .then((resp) => {
           console.log(resp.data);
          })
