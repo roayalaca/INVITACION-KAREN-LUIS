@@ -782,9 +782,10 @@
       right: 2rem;
     }
 
-    .Form .input{
-      width: 15rem;
+    .confirmation input {
+      background-color: red;
     }
+
 
     .options {
       display: flex;
@@ -797,6 +798,10 @@
     .div {
       position: relative;
       left: 2rem;
+      width: 17rem;
+    }
+
+    .input{
       width: 17rem;
     }
 
@@ -832,17 +837,17 @@
 
     #Si {
       position: relative;
-      right: 0.5rem;
+      right: -0.1rem;
     }
 
     #No {
       position: relative;
-      right: 1rem;
+       right: -0.1rem;
     }
 
 
     .input1 {
-      width: 3rem;
+      width: 2rem;
     }
 
     .input2 {
