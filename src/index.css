@@ -458,7 +458,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 120vh;
+  min-height: 165vh;
 }
 
 .funny {
@@ -1334,12 +1334,12 @@
   .Fifth-Background {
     position: relative;
     left: 0rem;
+    top: 12rem;
   }
 
   .funny {
     position: relative;
     left: 0rem;
-    width: 18rem;
   }
 
   .funny .attendance {
