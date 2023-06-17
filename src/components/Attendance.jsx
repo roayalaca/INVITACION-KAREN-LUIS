@@ -15,15 +15,18 @@ const Attendance = () => {
     };
 
     if(name && attendance && phone){
-       axios
-         .post("https://boda-karen-luis-api.onrender.com/absences", data)
-         .then((resp) => {
-           console.log(resp.data);
-         })
-         .catch((error) => {
-           console.error(error);
-         });
-      alert("Su respuesta ha sido registrada");
+      if(data.attendance === "no"){
+        axios
+          .post("https://boda-karen-luis-api.onrender.com/absences", data)
+          .then((resp) => {
+            console.log(resp.data);
+          })
+          .catch((error) => {
+            console.error(error);
+          });
+        alert("Su respuesta ha sido registrada en absences");
+      }
+       
     } else {
           e.preventDefault();
           alert("Favor de llenar todos los campos")
