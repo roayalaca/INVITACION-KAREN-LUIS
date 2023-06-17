@@ -18,8 +18,13 @@ const DressCode = () => {
         </div>
         <div className="Dress">
           <img src="./Dress.png" alt="" />
-          <p>Vestido</p>
+          <p>Vestido Largo</p>
         </div>
+      </div>
+
+      <div className="Reservation">
+        <p>Se reservan los colores:</p>
+        <h3>Blanco y su gama</h3>
       </div>
 
       <div className="Flowers3">

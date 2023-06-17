@@ -801,24 +801,51 @@
     top: 2rem;
   }
 
+  .Traje {
+    position: relative;
+    right: 0.5rem;
+  }
+
   .Traje img {
-    width: 5rem;
+    width: 4.5rem;
   }
 
   .Traje p {
     font-size: 16px;
   }
 
+   .Dress {
+    position: relative;
+    left: 0.5rem;
+  }
+
   .Dress img {
-    width: 5rem;
+    width: 4.5rem;
   }
 
   .Dress p {
     font-size: 16px;
   }
 
+  .Reservation{
+    font-size: 16px;
+    position: relative;
+    top: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Flowers3{
+    position: relative;
+    top: 2rem;
+  }
+
   .Presents {
     width: 18rem;
+    position: relative;
+    top: 4rem;
   }
 
   .Presents .p-presents {
@@ -830,30 +857,31 @@
   }
 
   .Presents p {
-    font-size: 20px;
+    font-size: 17px;
     width: 18rem;
   }
 
   .presents-table img {
     width: 8rem;
-    height: 5rem;
+    height: 4.3rem;
   }
 
   .liverpool {
     position: relative;
-    left: 1.5rem;
-    top: 0.5rem;
+    left: 1.2rem;
+    top: 1.5rem;
   }
 
   .amazon {
     position: relative;
-    top: 0.7rem;
+    top: 1.5rem;
     right: 1rem;
   }
 
   .Fifth-Background {
     position: relative;
     left: 0rem;
+    top: 10rem;
   }
 
   .funny {

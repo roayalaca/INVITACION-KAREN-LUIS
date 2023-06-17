@@ -9,7 +9,7 @@ const Photos = () => {
     if( counter > 3 ){
       counter = 1;
     }
-  }, 5000)
+  }, 3000)
 
   return (
     <div className='First-Background'>
