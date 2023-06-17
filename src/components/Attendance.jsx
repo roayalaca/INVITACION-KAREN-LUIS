@@ -25,6 +25,16 @@ const Attendance = () => {
             console.error(error);
           });
         alert("Su respuesta ha sido registrada en absences");
+      } else {
+         axios
+           .post("https://boda-karen-luis-api.onrender.com/invitados", data)
+           .then((resp) => {
+             console.log(resp.data);
+           })
+           .catch((error) => {
+             console.error(error);
+           });
+         alert("Su respuesta ha sido registrada en absences"); 
       }
        
     } else {
