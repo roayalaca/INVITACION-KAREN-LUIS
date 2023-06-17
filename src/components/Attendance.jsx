@@ -34,7 +34,7 @@ const Attendance = () => {
            .catch((error) => {
              console.error(error);
            });
-         alert("Su respuesta ha sido registrada en absences"); 
+         alert("Su respuesta ha sido registrada en invitados"); 
       }
        
     } else {
