@@ -90,7 +90,7 @@
   align-items: center;
   font-size: 80px;
   flex-direction: column;
-  min-height: 130vh;
+  min-height: 100vh;
   position: relative;
   top: 2rem;
 }
@@ -252,7 +252,7 @@
   align-items: center;
   font-size: 80px;
   flex-direction: column;
-  min-height: 120vh;
+  min-height: 100vh;
 }
 
 .Schedule {
@@ -356,7 +356,7 @@
   align-items: center;
   font-size: 80px;
   flex-direction: column;
-  min-height: 140vh;
+  min-height: 110vh;
 }
 
 .DressCode {
@@ -460,7 +460,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 165vh;
+  min-height: 115vh;
 }
 
 .funny {
@@ -550,26 +550,22 @@
     max-width: 320px;
   }
 
-  .navigation-manual {
-    position: absolute;
-    max-width: 320px;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
-  }
 
-  .navigation-auto {
-    position: absolute;
-    max-width: 320px;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
-  }
 
   .Second-Background {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 4rem;
+  }
+
+  .title {
+    position: relative;
+    top: 20rem;
+    font-size: 35px;
+    color: #fff;
+    left: 2rem;
   }
 
   .My-wedding {
@@ -678,6 +674,7 @@
     display: flex;
     position: relative;
     left: 0rem;
+    top: 2rem;
   }
 
   .Schedule {
@@ -782,6 +779,7 @@
   .Fourth-Background {
     position: relative;
     left: 0rem;
+    top: 3rem;
   }
 
   .DressCode {
@@ -881,7 +879,7 @@
   .Fifth-Background {
     position: relative;
     left: 0rem;
-    top: 10rem;
+    top: 13.2rem;
   }
 
   .funny {

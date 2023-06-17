@@ -14,6 +14,9 @@ const Photos = () => {
   return (
     <div className='First-Background'>
 
+      <div className='title'>
+        <strong>KAREN & LUIS</strong>
+      </div>
       
 
       <div className="slider">
