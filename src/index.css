@@ -1068,6 +1068,76 @@
 
 }
 
+@media (max-width: 320px ) and (min-height:700px) {
+     .First-Background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1rem;
+  }
+
+ .slider {
+    max-width: 320px;
+    height: 700px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .slides img {
+    max-width: 320px;
+    height: 700px;
+  }
+
+    .title {
+    position: relative;
+    top: 27rem;
+    font-size: 35px;
+    color: #fff;
+    left: 0.7rem;
+    width: 17rem;
+  }
+
+  .Second-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 80vh;
+}
+
+  .Third-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 70vh;
+}
+
+  .Fourth-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 85vh;
+}
+
+  .Fifth-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 85vh;
+}
+
+}
+
+
 
 @media (min-width: 321px) {
 
@@ -1575,6 +1645,7 @@
   }
 }
 
+
 @media (min-width: 321px ) and (min-height:580px) {
      .First-Background{
     display: flex;
@@ -1640,6 +1711,75 @@
     position: relative;
     bottom: 13rem;
     min-height: 90vh;
+}
+
+}
+
+@media (min-width: 321px ) and (min-height:700px) {
+     .First-Background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1rem;
+  }
+
+ .slider {
+    max-width: 320px;
+    height: 700px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .slides img {
+    max-width: 320px;
+    height: 700px;
+  }
+
+    .title {
+    position: relative;
+    top: 27rem;
+    font-size: 35px;
+    color: #fff;
+    left: 0.7rem;
+    width: 17rem;
+  }
+
+  .Second-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 80vh;
+}
+
+  .Third-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 70vh;
+}
+
+  .Fourth-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 85vh;
+}
+
+  .Fifth-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 85vh;
 }
 
 }
@@ -2236,6 +2376,75 @@
     position: relative;
     bottom: 13rem;
     min-height: 90vh;
+}
+
+}
+
+@media (min-width: 390px ) and (min-height:700px) {
+     .First-Background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1rem;
+  }
+
+ .slider {
+    max-width: 390px;
+    height: 700px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .slides img {
+    max-width: 390px;
+    height: 700px;
+  }
+
+    .title {
+    position: relative;
+    top: 27rem;
+    font-size: 45px;
+    color: #fff;
+    left: 0.7rem;
+    width: 21rem;
+  }
+
+  .Second-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 80vh;
+}
+
+  .Third-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 80vh;
+}
+
+  .Fourth-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 100vh;
+}
+
+  .Fifth-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 75vh;
 }
 
 }
