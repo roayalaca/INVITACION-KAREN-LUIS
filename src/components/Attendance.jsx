@@ -48,8 +48,8 @@ const Attendance = () => {
         <img src="./flowers.jpg" alt="" />
         <p className="attendance">Confirma tu asistencia</p>
         <p className="phrase">
-          ***Te invitamos cordialmente a una noche llena de amor, luz y perreo
-          intenso hasta el subsuelo. ¡Te esperamos!
+          Te invitamos cordialmente a ser parte de nuestro amor en este
+          día tan especial.
         </p>
       </div>
 
@@ -129,8 +129,8 @@ const Attendance = () => {
 
       <div className="funny1">
         <p className="phrase">
-          * Ah, y besos de tres, pero no con nosotros porque ya seremos papas
-          casadas, literalmente.
+          Agradecemos de antemano la confirmación de tu asistencia para celebrar
+          juntos este mágico momento
         </p>
         <img src="./flowers.jpg" alt="" />
       </div>

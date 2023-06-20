@@ -11,13 +11,13 @@ const Photos = () => {
     }
   }, 3000)
 
-  return (
-    <div className='First-Background'>
+  let width = window.innerWidth
 
-      <div className='title'>
+  return (
+    <div className="First-Background">
+      <div className="title">
         <strong>KAREN & LUIS</strong>
       </div>
-      
 
       <div className="slider">
         <div className="slides">
@@ -26,31 +26,26 @@ const Photos = () => {
           <input type="radio" name="radio-btn" id="radio3" />
 
           <div className="slide first">
-            <img src="Karen_Luis.jpg" alt="" />
+            <img
+              src={width >= 992 ? "Karen_Luis4.jpg" : "Karen_Luis.jpg"}
+              alt=""
+            />
           </div>
 
           <div className="slide">
-            <img src="Karen_Luis1.jpg" alt="" />
+            <img
+              src={width >= 992 ? "Karen_Luis5.jpeg" : "Karen_Luis1.jpg" }
+              alt=""
+            />
           </div>
 
           <div className="slide">
-            <img src="Karen_Luis2.jpg" alt="" />
+            <img
+              src={width >= 992 ? "Karen_Luis6.jpg" : "Karen_Luis2.jpg"}
+              alt=""
+            />
           </div>
         </div>
-
-        <div className="navigation-auto">
-          <div className="auto-btn1"></div>
-          <div className="auto-btn2"></div>
-          <div className="auto-btn3"></div>
-        </div>
-
-        <div className="navigation-manual">
-          <label htmlFor="radio1" className="manual-btn"></label>
-          <label htmlFor="radio2" className="manual-btn"></label>
-          <label htmlFor="radio3" className="manual-btn"></label>
-        </div>
-
-        
       </div>
     </div>
   );
