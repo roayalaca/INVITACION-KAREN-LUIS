@@ -33,29 +33,6 @@
   height: 500px;
 }
 
-.navigation-manual {
-  position: absolute;
-  width: 800px;
-  margin-top: -40px;
-  display: flex;
-  justify-content: center;
-}
-
-.manual-btn {
-  border: 2px solid #40d3dc;
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 1s;
-}
-
-.manual-btn:not(:last-child) {
-  margin-right: 40px;
-}
-
-.manual-btn:hover {
-  background: #40d3dc;
-}
 
 #radio1:checked ~ .first {
   margin-left: 0;
@@ -69,20 +46,6 @@
   margin-left: -40%;
 }
 
-.navigation-auto {
-  position: absolute;
-  display: flex;
-  width: 800px;
-  justify-content: center;
-  margin-top: 460px;
-}
-
-.navigation-auto div {
-  border: 2px solid #40d3dc;
-  padding: 5px;
-  border-radius: 10px;
-  transition: 1s;
-}
 
 .Second-Background {
   display: flex;
@@ -566,6 +529,7 @@
     font-size: 35px;
     color: #fff;
     left: 2rem;
+    width: 17rem;
   }
 
   .My-wedding {
@@ -1030,9 +994,12 @@
   }
 }
 
+
 @media (min-width: 321px) {
-  .First-Background {
+
+  .First-Background{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -1042,39 +1009,34 @@
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
+    background-color: red;
   }
 
   .slides img {
-    max-width: 320px;
-    height: 400px;
-    position: relative;
-    top: 3rem;
+    width: 320px;
   }
 
-  .navigation-manual {
-    position: absolute;
-    max-width: 320px;
-    margin-top: -80px;
-    display: flex;
-    justify-content: center;
-  }
 
-  .navigation-auto {
-    position: absolute;
-    max-width: 320px;
-    margin-top: -80px;
-    display: flex;
-    justify-content: center;
-  }
 
   .Second-Background {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 4rem;
+  }
+
+  .title {
+    position: relative;
+    top: 20rem;
+    font-size: 35px;
+    color: #fff;
+    left: 0.7rem;
+    width: 17rem;
   }
 
   .My-wedding {
-    font-size: 57px;
+    font-size: 52px;
     position: relative;
     left: 0.7rem;
     bottom: 2.5rem;
@@ -1091,13 +1053,13 @@
   }
 
   .Date p {
-    font-size: 23px;
+    font-size: 21px;
     position: relative;
     right: 2rem;
   }
 
   .Date h1 {
-    font-size: 25px;
+    font-size: 23px;
     position: relative;
     left: 0.2rem;
   }
@@ -1108,7 +1070,7 @@
   }
 
   .Counter {
-    width: 19rem;
+    width: 18rem;
     position: relative;
     right: 0.8rem;
   }
@@ -1118,13 +1080,13 @@
   }
 
   .days {
-    font-size: 19px;
-    width: 2.8rem;
-    height: 2.8rem;
+    font-size: 18px;
+    width: 2.7rem;
+    height: 2.7rem;
   }
 
   .days1 small {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .hours1 {
@@ -1132,13 +1094,13 @@
   }
 
   .hours {
-    font-size: 19px;
-    width: 2.8rem;
-    height: 2.8rem;
+    font-size: 18px;
+    width: 2.7rem;
+    height: 2.7rem;
   }
 
   .hours1 small {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .minutes1 {
@@ -1146,13 +1108,13 @@
   }
 
   .minutes {
-    font-size: 19px;
-    width: 2.8rem;
-    height: 2.8rem;
+    font-size: 18px;
+    width: 2.7rem;
+    height: 2.7rem;
   }
 
   .minutes1 small {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .seconds1 {
@@ -1160,17 +1122,17 @@
   }
 
   .seconds {
-    font-size: 19px;
-    width: 2.8rem;
-    height: 2.8rem;
+    font-size: 18px;
+    width: 2.7rem;
+    height: 2.7rem;
   }
 
   .seconds1 small {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .Flowers img {
-    width: 14rem;
+    width: 13rem;
     position: relative;
     left: 0.5rem;
   }
@@ -1179,10 +1141,11 @@
     display: flex;
     position: relative;
     left: 0rem;
+    top: 2rem;
   }
 
   .Schedule {
-    font-size: 57px;
+    font-size: 55px;
     position: relative;
     left: 2rem;
   }
@@ -1204,7 +1167,7 @@
   }
 
   .CereImage p {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .p1 {
@@ -1212,7 +1175,7 @@
   }
 
   .CereImage a {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .Ceremony {
@@ -1239,15 +1202,15 @@
   }
 
   .CereText h1 {
-    font-size: 20px;
+    font-size: 18.5px;
   }
 
   .CereText h2 {
-    font-size: 18px;
+    font-size: 16.5px;
   }
 
   .CereText p {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .CheersText {
@@ -1259,15 +1222,15 @@
   }
 
   .CheersText h1 {
-    font-size: 20px;
+    font-size: 18.5px;
   }
 
   .CheersText h2 {
-    font-size: 18px;
+    font-size: 16.5px;
   }
 
   .CheersText p {
-    font-size: 17px;
+    font-size: 16.5px;
   }
 
   .Presents {
@@ -1275,14 +1238,15 @@
   }
 
   .Flowers2 img {
-    width: 14.5rem;
+    width: 13rem;
     position: relative;
-    top: 1.5rem;
+    top: 1rem;
   }
 
   .Fourth-Background {
     position: relative;
     left: 0rem;
+    top: 3rem;
   }
 
   .DressCode {
@@ -1292,36 +1256,61 @@
   }
 
   .DressCode p {
-    width: 19rem;
-    font-size: 43px;
-    position: relative;
-    right: 0.3rem;
+    width: 18rem;
+    font-size: 41px;
   }
 
   .Formal {
-    font-size: 16px;
+    font-size: 13px;
     position: relative;
     top: 2rem;
   }
 
+  .Traje {
+    position: relative;
+    right: 0.5rem;
+  }
+
   .Traje img {
-    width: 5.5rem;
+    width: 4.5rem;
   }
 
   .Traje p {
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+   .Dress {
+    position: relative;
+    left: 0.5rem;
   }
 
   .Dress img {
-    width: 5.5rem;
+    width: 4.5rem;
   }
 
   .Dress p {
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+  .Reservation{
+    font-size: 16px;
+    position: relative;
+    top: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Flowers3{
+    position: relative;
+    top: 2rem;
   }
 
   .Presents {
     width: 18rem;
+    position: relative;
+    top: 4rem;
   }
 
   .Presents .p-presents {
@@ -1329,56 +1318,52 @@
     bottom: 0.5rem;
     left: 1.2rem;
     font-family: "Great Vibes", cursive;
-    font-size: 38px;
-    width: 16rem;
+    font-size: 37px;
   }
 
   .Presents p {
-    font-size: 20.5px;
+    font-size: 17px;
     width: 18rem;
   }
 
   .presents-table img {
-    width: 8.5rem;
-    height: 5rem;
-  }
-
-  .presents-table {
-    width: 20rem;
+    width: 8rem;
+    height: 4.3rem;
   }
 
   .liverpool {
     position: relative;
-    left: 1.3rem;
-    top: 0.5rem;
+    left: 1.2rem;
+    top: 1.5rem;
   }
 
   .amazon {
     position: relative;
-    top: 0.7rem;
-    right: 1.2rem;
+    top: 1.5rem;
+    right: 1rem;
   }
 
   .Fifth-Background {
     position: relative;
     left: 0rem;
-    top: 12rem;
+    top: 13.2rem;
   }
 
   .funny {
     position: relative;
     left: 0rem;
+    width: 18rem;
   }
 
   .funny .attendance {
-    font-size: 43px;
+    font-size: 41px;
     font-family: "Great Vibes", cursive;
     position: relative;
     bottom: 0.5rem;
   }
 
   .funny .phrase {
-    font-size: 18.5px;
+    font-size: 17.5px;
     position: relative;
     bottom: 0.4rem;
     width: 18rem;
@@ -1386,12 +1371,12 @@
 
   .funny img {
     position: relative;
-    width: 15rem;
+    width: 13rem;
   }
 
   .Form {
-    width: 19.5rem;
-    height: 19rem;
+    width: 18rem;
+    height: 18rem;
     position: relative;
     right: 2rem;
     display: flex;
@@ -1417,7 +1402,7 @@
   }
 
   .div label {
-    font-size: 29px;
+    font-size: 27px;
   }
 
   .div {
@@ -1431,7 +1416,7 @@
   }
 
   .div1 {
-    width: 18rem;
+    width: 17rem;
     position: relative;
     left: 2rem;
     top: 0.8rem;
@@ -1442,21 +1427,21 @@
   }
 
   .yes {
-    width: 9rem;
+    width: 8rem;
     display: flex;
   }
 
   .no {
-    width: 10rem;
+    width: 9rem;
     display: flex;
   }
 
   .yes label {
-    font-size: 19px;
+    font-size: 18px;
   }
 
   .no label {
-    font-size: 19px;
+    font-size: 18px;
   }
 
   #Si {
@@ -1476,11 +1461,11 @@
   }
 
   .input2 {
-    width: 2rem;
+    width: 4rem;
   }
 
   .div1 strong {
-    font-size: 29px;
+    font-size: 27px;
   }
 
   .div2 {
@@ -1490,15 +1475,12 @@
   }
 
   .div2 label {
-    font-size: 29px;
+    font-size: 27px;
   }
 
   .Form button {
     position: relative;
     left: 2.2rem;
-    width: 4.5rem;
-    height: 2rem;
-    font-size: 16px;
   }
 
   .funny1 {
@@ -1507,12 +1489,8 @@
     width: 18rem;
   }
 
-  .funny1 img {
-    width: 15rem;
-  }
-
   .funny1 p {
-    font-size: 18.5px;
+    font-size: 17.5px;
     position: relative;
     bottom: -0.4rem;
     width: 17rem;

@@ -4,8 +4,8 @@ import axios from "axios";
 
 const Attendance = () => {
   const [name, setName] = useState("");
-   const [attendance, setAttendance] = useState("");
-   const [phone, setPhone] = useState("");
+  const [attendance, setAttendance] = useState("");
+  const [phone, setPhone] = useState("");
 
   const submit = (e) => {
     const data = {
@@ -14,8 +14,8 @@ const Attendance = () => {
       phone: phone,
     };
 
-    if(name && attendance && phone){
-      if(data.attendance === "no"){
+    if (name && attendance && phone) {
+      if (data.attendance === "no") {
         axios
           .post("https://boda-karen-luis-api.onrender.com/absences", data)
           .then((resp) => {
@@ -26,23 +26,20 @@ const Attendance = () => {
           });
         alert("Su respuesta ha sido registrada en absences");
       } else {
-         axios
-           .post("https://boda-karen-luis-api.onrender.com/invitados", data)
-           .then((resp) => {
-             console.log(resp.data);
-           })
-           .catch((error) => {
-             console.error(error);
-           });
-         alert("Su respuesta ha sido registrada en invitados"); 
+        axios
+          .post("https://boda-karen-luis-api.onrender.com/invitados", data)
+          .then((resp) => {
+            console.log(resp.data);
+          })
+          .catch((error) => {
+            console.error(error);
+          });
+        alert("Su respuesta ha sido registrada en invitados");
       }
-       
     } else {
-          e.preventDefault();
-          alert("Favor de llenar todos los campos")
+      e.preventDefault();
+      alert("Favor de llenar todos los campos");
     }
-
-   
   };
 
   return (
