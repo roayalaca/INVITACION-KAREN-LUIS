@@ -999,6 +999,75 @@
   }
 }
 
+@media (max-width: 320px ) and (min-height:580px) {
+     .First-Background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1rem;
+  }
+
+ .slider {
+    max-width: 320px;
+    height: 580px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .slides img {
+    max-width: 320px;
+    height: 580px;
+  }
+
+    .title {
+    position: relative;
+    top: 23rem;
+    font-size: 35px;
+    color: #fff;
+    left: 0.7rem;
+    width: 17rem;
+  }
+
+  .Second-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 90vh;
+}
+
+  .Third-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 90vh;
+}
+
+  .Fourth-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 90vh;
+}
+
+  .Fifth-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 90vh;
+}
+
+}
+
 
 @media (min-width: 321px) {
 
@@ -1505,6 +1574,76 @@
     width: 17rem;
   }
 }
+
+@media (min-width: 321px ) and (min-height:580px) {
+     .First-Background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1rem;
+  }
+
+ .slider {
+    min-width: 321px;
+    height: 580px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .slides img {
+    min-width: 321px;
+    height: 580px;
+  }
+
+    .title {
+    position: relative;
+    top: 23rem;
+    font-size: 35px;
+    color: #fff;
+    left: 0.7rem;
+    width: 17rem;
+  }
+
+  .Second-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 90vh;
+}
+
+  .Third-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 90vh;
+}
+
+  .Fourth-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 90vh;
+}
+
+  .Fifth-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 90vh;
+}
+
+}
+
 
 /* @media (min-width: 390px) and (orientation: landscape) {
 
@@ -2034,6 +2173,71 @@
     bottom: -0.4rem;
     width: 17rem;
   }
+}
+
+@media (min-width: 390px ) and (min-height:580px) {
+     .First-Background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1rem;
+  }
+
+  .slider {
+    width: 390px;
+    height: 580px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .slides img {
+    width: 390px;
+    height: 580px;
+  }
+
+  .title{
+    position: relative;
+    top: 23rem;
+  }
+
+  .Second-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 90vh;
+}
+
+  .Third-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 90vh;
+}
+
+  .Fourth-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 90vh;
+}
+
+  .Fifth-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    min-height: 90vh;
+}
+
 }
 
 @media (min-width: 576px) {
