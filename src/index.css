@@ -1744,8 +1744,14 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 13rem;
     min-height: 90vh;
+    top: -3rem;
+
+}
+
+.Flowers2 {
+  position: relative;
+  bottom: 0.3rem;
 }
 
   .Fourth-Background {
@@ -1753,7 +1759,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 13rem;
+    top: -4.5rem;
     min-height: 90vh;
 }
 
@@ -1762,13 +1768,13 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 13rem;
+    top: 4.5rem;
     min-height: 90vh;
 }
 
-.funny1 img {
+.funny img {
     position: relative;
-    top: 0.5rem;
+    top: -1.3rem;
   }
 
 .funny1 .phrase {
