@@ -1212,14 +1212,12 @@
     width: 320px;
   }
 
-
-
   .Second-Background {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 4rem;
+    top: 2rem;
   }
 
   .title {
@@ -1331,13 +1329,14 @@
     width: 13rem;
     position: relative;
     left: 0.5rem;
+    top: 1rem;
   }
 
   .Third-Background {
     display: flex;
     position: relative;
     left: 0rem;
-    top: 2rem;
+    top: -3rem;
   }
 
   .Schedule {
@@ -1436,13 +1435,13 @@
   .Flowers2 img {
     width: 13rem;
     position: relative;
-    top: 1rem;
+    top: 2rem;
   }
 
   .Fourth-Background {
     position: relative;
     left: 0rem;
-    top: 3rem;
+    top: -6rem;
   }
 
   .DressCode {
@@ -1500,7 +1499,7 @@
 
   .Flowers3{
     position: relative;
-    top: 2rem;
+    top: 3rem;
   }
 
   .Presents {
@@ -1542,7 +1541,7 @@
   .Fifth-Background {
     position: relative;
     left: 0rem;
-    top: 13.2rem;
+    top: -0.2rem;
   }
 
   .funny {
@@ -1568,6 +1567,7 @@
   .funny img {
     position: relative;
     width: 13rem;
+    bottom: 1rem;
   }
 
   .Form {
