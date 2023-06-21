@@ -33,7 +33,6 @@
   height: 500px;
 }
 
-
 #radio1:checked ~ .first {
   margin-left: 0;
 }
@@ -45,7 +44,6 @@
 #radio3:checked ~ .first {
   margin-left: -40%;
 }
-
 
 .Second-Background {
   display: flex;
@@ -518,8 +516,6 @@
     max-width: 320px;
   }
 
-
-
   .Second-Background {
     display: flex;
     justify-content: center;
@@ -642,6 +638,8 @@
 
   .Third-Background {
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 0rem;
     top: -2.5rem;
@@ -750,6 +748,9 @@
     position: relative;
     left: 0rem;
     top: -4.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .DressCode {
@@ -782,7 +783,7 @@
     font-size: 16px;
   }
 
-   .Dress {
+  .Dress {
     position: relative;
     left: 0.5rem;
   }
@@ -795,7 +796,7 @@
     font-size: 16px;
   }
 
-  .Reservation{
+  .Reservation {
     font-size: 16px;
     position: relative;
     top: 1.1rem;
@@ -805,7 +806,7 @@
     align-items: center;
   }
 
-  .Flowers3{
+  .Flowers3 {
     position: relative;
     top: 2.7rem;
   }
@@ -850,6 +851,9 @@
     position: relative;
     left: 0rem;
     top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .funny img {
@@ -883,7 +887,6 @@
     bottom: 0rem;
     width: 18rem;
   }
-
 
   .funny img {
     position: relative;
@@ -1016,12 +1019,10 @@
     position: relative;
     top: 0.5rem;
   }
-
-
 }
 
-@media (max-width: 320px ) and (min-height:580px) {
-     .First-Background{
+@media (max-width: 320px) and (min-height: 580px) {
+  .First-Background {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1030,7 +1031,7 @@
     top: 1rem;
   }
 
- .slider {
+  .slider {
     max-width: 320px;
     height: 580px;
     border-radius: 10px;
@@ -1042,7 +1043,7 @@
     height: 580px;
   }
 
-    .title {
+  .title {
     position: relative;
     top: 23rem;
     font-size: 35px;
@@ -1058,7 +1059,7 @@
     position: relative;
     bottom: 13rem;
     min-height: 95vh;
-}
+  }
 
   .Third-Background {
     display: flex;
@@ -1067,8 +1068,7 @@
     position: relative;
     bottom: 13rem;
     min-height: 90vh;
-}
-
+  }
 
   .Fourth-Background {
     display: flex;
@@ -1077,7 +1077,7 @@
     position: relative;
     bottom: 14rem;
     min-height: 100vh;
-}
+  }
 
   .Fifth-Background {
     display: flex;
@@ -1086,9 +1086,9 @@
     position: relative;
     top: 2.5rem;
     min-height: 80vh;
-}
+  }
 
-.funny img {
+  .funny img {
     position: relative;
     bottom: 1.2rem;
   }
@@ -1098,21 +1098,19 @@
     top: 0.2rem;
   }
 
-   .Flowers2 {
+  .Flowers2 {
     position: relative;
     top: 0.5rem;
   }
 
-  .Flowers3 img{
+  .Flowers3 img {
     position: relative;
     bottom: 0rem;
   }
-
-
 }
 
-@media (max-width: 320px ) and (min-height:700px) {
-     .First-Background{
+@media (max-width: 320px) and (min-height: 700px) {
+  .First-Background {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1121,7 +1119,7 @@
     top: 1rem;
   }
 
- .slider {
+  .slider {
     max-width: 320px;
     height: 700px;
     border-radius: 10px;
@@ -1133,7 +1131,7 @@
     height: 700px;
   }
 
-    .title {
+  .title {
     position: relative;
     top: 27rem;
     font-size: 35px;
@@ -1149,7 +1147,7 @@
     position: relative;
     bottom: 13rem;
     min-height: 80vh;
-}
+  }
 
   .Third-Background {
     display: flex;
@@ -1158,7 +1156,7 @@
     position: relative;
     bottom: 13rem;
     min-height: 70vh;
-}
+  }
 
   .Fourth-Background {
     display: flex;
@@ -1167,7 +1165,7 @@
     position: relative;
     bottom: 13rem;
     min-height: 85vh;
-}
+  }
 
   .Fifth-Background {
     display: flex;
@@ -1176,25 +1174,21 @@
     position: relative;
     bottom: 13rem;
     min-height: 85vh;
-}
+  }
 
-.funny1 img {
+  .funny1 img {
     position: relative;
     top: 0.5rem;
   }
-
 }
 
-
-
 @media (min-width: 321px) {
-
-   .App {
+  .App {
     position: relative;
     bottom: 3rem;
   }
 
-  .First-Background{
+  .First-Background {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1474,7 +1468,7 @@
     font-size: 16px;
   }
 
-   .Dress {
+  .Dress {
     position: relative;
     left: 0.5rem;
   }
@@ -1487,7 +1481,7 @@
     font-size: 16px;
   }
 
-  .Reservation{
+  .Reservation {
     font-size: 16px;
     position: relative;
     top: 1.1rem;
@@ -1497,7 +1491,7 @@
     align-items: center;
   }
 
-  .Flowers3{
+  .Flowers3 {
     position: relative;
     top: 3rem;
   }
@@ -1698,9 +1692,8 @@
   }
 }
 
-
-@media (min-width: 321px ) and (min-height:580px) {
-     .First-Background{
+@media (min-width: 321px) and (min-height: 580px) {
+  .First-Background {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1709,7 +1702,7 @@
     top: 1rem;
   }
 
- .slider {
+  .slider {
     min-width: 321px;
     height: 580px;
     border-radius: 10px;
@@ -1721,7 +1714,7 @@
     height: 580px;
   }
 
-    .title {
+  .title {
     position: relative;
     top: 23rem;
     font-size: 35px;
@@ -1737,7 +1730,7 @@
     position: relative;
     bottom: 13rem;
     min-height: 90vh;
-}
+  }
 
   .Third-Background {
     display: flex;
@@ -1746,13 +1739,12 @@
     position: relative;
     min-height: 90vh;
     top: -3rem;
+  }
 
-}
-
-.Flowers2 {
-  position: relative;
-  bottom: 0.3rem;
-}
+  .Flowers2 {
+    position: relative;
+    bottom: 0.3rem;
+  }
 
   .Fourth-Background {
     display: flex;
@@ -1761,7 +1753,7 @@
     position: relative;
     top: -4.5rem;
     min-height: 90vh;
-}
+  }
 
   .Fifth-Background {
     display: flex;
@@ -1770,23 +1762,22 @@
     position: relative;
     top: 4.5rem;
     min-height: 90vh;
-}
+  }
 
-.funny img {
+  .funny img {
     position: relative;
     top: -1.3rem;
   }
 
-.funny1 .phrase {
-  position: relative;
-  width: 18rem;
-  left: 1rem;
+  .funny1 .phrase {
+    position: relative;
+    width: 18rem;
+    left: 1rem;
+  }
 }
 
-}
-
-@media (min-width: 321px ) and (min-height:700px) {
-     .First-Background{
+@media (min-width: 321px) and (min-height: 700px) {
+  .First-Background {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1795,7 +1786,7 @@
     top: 1rem;
   }
 
- .slider {
+  .slider {
     max-width: 320px;
     height: 700px;
     border-radius: 10px;
@@ -1807,7 +1798,7 @@
     height: 700px;
   }
 
-    .title {
+  .title {
     position: relative;
     top: 27rem;
     font-size: 35px;
@@ -1823,7 +1814,7 @@
     position: relative;
     bottom: 13rem;
     min-height: 80vh;
-}
+  }
 
   .Third-Background {
     display: flex;
@@ -1832,7 +1823,7 @@
     position: relative;
     bottom: 13rem;
     min-height: 70vh;
-}
+  }
 
   .Fourth-Background {
     display: flex;
@@ -1841,7 +1832,7 @@
     position: relative;
     top: -5.3rem;
     min-height: 85vh;
-}
+  }
 
   .Fifth-Background {
     display: flex;
@@ -1850,68 +1841,21 @@
     position: relative;
     top: 1rem;
     min-height: 85vh;
-}
+  }
 
-.funny1 img {
+  .funny1 img {
     position: relative;
     top: 0.5rem;
   }
-
 }
 
-
-/* @media (min-width: 390px) and (orientation: landscape) {
-
-  .slide {
-    position: relative;
-    bottom: 3.5rem;
-  }
-
-  .navigation-manual{
-    position: relative;
-    bottom: 1.5rem;
-  }
-
-   .navigation-auto{
-    position: relative;
-    bottom: 1.5rem;
-  }
-
-  .My-wedding p {
-    font-size: 50px;
-  }
-
-  .Second-Background {
-    position: relative;
-    top: 3rem;
-  }
-
-  .Third-Background {
-    position: relative;
-    top: 12rem;
-  }
-
-   .Fourth-Background {
-    position: relative;
-    top: 23rem;
-  }
-
-
-  .Fifth-Background {
-    position: relative;
-    top: 34rem;
-  }
-
-} */
-
 @media (min-width: 390px) {
-
-   .App {
+  .App {
     position: relative;
     bottom: 3rem;
   }
 
-    .First-Background{
+  .First-Background {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1930,14 +1874,14 @@
     height: 500px;
   }
 
-   .title {
+  .title {
     font-size: 44px;
     width: 22rem;
     position: relative;
     left: 1rem;
     bottom: 2rem;
     z-index: 100;
-   }
+  }
 
   .Second-Background {
     display: flex;
@@ -2053,6 +1997,8 @@
 
   .Third-Background {
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 0rem;
     top: -1rem;
@@ -2161,6 +2107,9 @@
     position: relative;
     left: 0rem;
     top: -2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .DressCode {
@@ -2198,7 +2147,7 @@
     font-size: 18px;
   }
 
-   .Reservation{
+  .Reservation {
     font-size: 18px;
   }
 
@@ -2245,6 +2194,9 @@
     position: relative;
     left: 0rem;
     top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .funny {
@@ -2410,8 +2362,8 @@
   }
 }
 
-@media (min-width: 390px ) and (min-height:580px) {
-     .First-Background{
+@media (min-width: 390px) and (min-height: 580px) {
+  .First-Background {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2432,7 +2384,7 @@
     height: 580px;
   }
 
-  .title{
+  .title {
     position: relative;
     top: 23rem;
   }
@@ -2444,7 +2396,7 @@
     position: relative;
     top: 4rem;
     min-height: 90vh;
-}
+  }
 
   .Third-Background {
     display: flex;
@@ -2453,7 +2405,7 @@
     position: relative;
     top: 1.3rem;
     min-height: 90vh;
-}
+  }
 
   .Fourth-Background {
     display: flex;
@@ -2462,7 +2414,7 @@
     position: relative;
     top: 0.4rem;
     min-height: 90vh;
-}
+  }
 
   .Fifth-Background {
     display: flex;
@@ -2471,25 +2423,24 @@
     position: relative;
     top: 8rem;
     min-height: 90vh;
-}
+  }
 
-.Presents p {
-  width: 21rem;
-}
+  .Presents p {
+    width: 21rem;
+  }
 
-.funny1 img {
+  .funny1 img {
     position: relative;
     top: 0.5rem;
   }
 
-.funny1 .phrase {
-  width: 21rem;
+  .funny1 .phrase {
+    width: 21rem;
+  }
 }
 
-}
-
-@media (min-width: 390px ) and (min-height:700px) {
-     .First-Background{
+@media (min-width: 390px) and (min-height: 700px) {
+  .First-Background {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2498,7 +2449,7 @@
     top: 1rem;
   }
 
- .slider {
+  .slider {
     max-width: 390px;
     height: 700px;
     border-radius: 10px;
@@ -2510,7 +2461,7 @@
     height: 700px;
   }
 
-    .title {
+  .title {
     position: relative;
     top: 27rem;
     font-size: 45px;
@@ -2526,7 +2477,7 @@
     position: relative;
     top: 3rem;
     min-height: 80vh;
-}
+  }
 
   .Third-Background {
     display: flex;
@@ -2535,7 +2486,7 @@
     position: relative;
     top: -0.9rem;
     min-height: 70vh;
-}
+  }
 
   .Fourth-Background {
     display: flex;
@@ -2544,7 +2495,7 @@
     position: relative;
     top: -4rem;
     min-height: 95vh;
-}
+  }
 
   .Fifth-Background {
     display: flex;
@@ -2553,9 +2504,9 @@
     position: relative;
     top: 2rem;
     min-height: 75vh;
-}
+  }
 
-.funny1 img {
+  .funny1 img {
     position: relative;
     top: 0.5rem;
   }
@@ -2563,8 +2514,6 @@
   .funny1 .phrase {
     width: 21.3rem;
   }
-
-
 }
 
 @media (min-width: 576px) {
@@ -2589,7 +2538,6 @@
     position: relative;
     top: -1rem;
   }
-
 
   .title {
     font-size: 54px;
@@ -2716,6 +2664,8 @@
 
   .Third-Background {
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 0rem;
     height: 125vh;
@@ -2825,6 +2775,9 @@
     left: 0rem;
     height: 130vh;
     top: -8rem;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .DressCode {
@@ -2858,7 +2811,7 @@
     width: 6.5rem;
   }
 
-  .Reservation{
+  .Reservation {
     font-size: 22px;
   }
 
@@ -2923,6 +2876,8 @@
     position: relative;
     left: 0rem;
     width: 24rem;
+    display: flex;
+    justify-content: center;
   }
 
   .funny .attendance {
@@ -2962,7 +2917,6 @@
     position: relative;
     right: 0rem;
   }
-
 
   .options {
     display: flex;
@@ -3080,12 +3034,11 @@
   }
 }
 
-@media (min-width: 576px) and (min-height:580px) {
+@media (min-width: 576px) and (min-height: 580px) {
   .First-Background {
     display: flex;
     justify-content: center;
     align-items: center;
- 
   }
 
   .slider {
@@ -3103,7 +3056,6 @@
     position: relative;
     top: -1rem;
   }
-
 
   .title {
     font-size: 54px;
@@ -3237,6 +3189,7 @@
     position: relative;
     left: 0rem;
     height: 120vh;
+    justify-content: center;
   }
 
   .Schedule {
@@ -3342,6 +3295,9 @@
     left: 0rem;
     height: 105vh;
     top: -7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .DressCode {
@@ -3375,7 +3331,7 @@
     width: 6.5rem;
   }
 
-  .Reservation{
+  .Reservation {
     font-size: 22px;
   }
 
@@ -3435,6 +3391,9 @@
     left: 0rem;
     height: 130vh;
     top: -0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .funny {
@@ -3480,7 +3439,6 @@
     position: relative;
     right: 0rem;
   }
-
 
   .options {
     display: flex;
@@ -3603,7 +3561,7 @@
   }
 }
 
-@media (min-width: 576px) and (min-height:700px) {
+@media (min-width: 576px) and (min-height: 700px) {
   .First-Background {
     display: flex;
     justify-content: center;
@@ -3625,7 +3583,6 @@
     position: relative;
     top: -1rem;
   }
-
 
   .title {
     font-size: 54px;
@@ -3754,6 +3711,8 @@
 
   .Third-Background {
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 0rem;
     height: 95vh;
@@ -3863,6 +3822,9 @@
     left: 0rem;
     height: 95vh;
     top: -8.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .DressCode {
@@ -3896,7 +3858,7 @@
     width: 6.5rem;
   }
 
-  .Reservation{
+  .Reservation {
     font-size: 22px;
   }
 
@@ -3956,6 +3918,9 @@
     left: 0rem;
     height: 105vh;
     top: -3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .funny {
@@ -4001,7 +3966,6 @@
     position: relative;
     right: 0rem;
   }
-
 
   .options {
     display: flex;
@@ -4288,6 +4252,8 @@
 
   .Third-Background {
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 0rem;
     height: 150vh;
@@ -4404,6 +4370,9 @@
   .Fourth-Background {
     position: relative;
     left: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .Dressing {
@@ -4501,6 +4470,9 @@
   .Fifth-Background {
     position: relative;
     left: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .funny {
@@ -4667,7 +4639,7 @@
   }
 }
 
-@media (min-width: 768px) and (min-height:580px) {
+@media (min-width: 768px) and (min-height: 580px) {
   .First-Background {
     display: flex;
     justify-content: center;
@@ -4689,7 +4661,6 @@
     position: relative;
     top: -1rem;
   }
-
 
   .title {
     font-size: 54px;
@@ -4818,6 +4789,8 @@
 
   .Third-Background {
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 0rem;
     height: 120vh;
@@ -4924,7 +4897,7 @@
     position: relative;
   }
 
-  .CheersText p.p5{
+  .CheersText p.p5 {
     position: relative;
     right: 3rem;
     margin-right: 4rem;
@@ -4944,6 +4917,9 @@
     position: relative;
     left: 0rem;
     height: 105vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .DressCode {
@@ -4977,7 +4953,7 @@
     width: 6.5rem;
   }
 
-  .Reservation{
+  .Reservation {
     font-size: 22px;
   }
 
@@ -5001,7 +4977,6 @@
     font-size: 48px;
     width: 20rem;
   }
-
 
   .presents-table img {
     width: 12.5rem;
@@ -5031,6 +5006,9 @@
     position: relative;
     left: 0rem;
     height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .funny {
@@ -5076,7 +5054,6 @@
     position: relative;
     right: 0rem;
   }
-
 
   .options {
     display: flex;
@@ -5195,7 +5172,7 @@
   }
 }
 
-@media (min-width: 768px) and (min-height:700px) {
+@media (min-width: 768px) and (min-height: 700px) {
   .First-Background {
     display: flex;
     justify-content: center;
@@ -5217,7 +5194,6 @@
     position: relative;
     top: -1rem;
   }
-
 
   .title {
     font-size: 54px;
@@ -5346,6 +5322,8 @@
 
   .Third-Background {
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 0rem;
     height: 95vh;
@@ -5452,7 +5430,7 @@
     position: relative;
   }
 
-  .CheersText p.p5{
+  .CheersText p.p5 {
     position: relative;
     right: 3rem;
     margin-right: 4rem;
@@ -5472,6 +5450,9 @@
     position: relative;
     left: 0rem;
     height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .DressCode {
@@ -5505,7 +5486,7 @@
     width: 6.5rem;
   }
 
-  .Reservation{
+  .Reservation {
     font-size: 22px;
   }
 
@@ -5565,6 +5546,9 @@
     left: 0rem;
     height: 10vh;
     top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .funny {
@@ -5611,7 +5595,6 @@
     right: 0rem;
     height: 32rem;
   }
-
 
   .options {
     display: flex;
@@ -5727,7 +5710,6 @@
   }
 }
 
-
 @media (min-width: 992px) {
   .First-Background {
     display: flex;
@@ -5737,7 +5719,6 @@
     height: 136vh;
     position: relative;
     bottom: 7rem;
-   
   }
 
   .slider {
@@ -5747,7 +5728,7 @@
     overflow: hidden;
     position: relative;
     top: 0rem;
-}
+  }
 
   .slides img {
     min-width: 992px;
@@ -5920,6 +5901,8 @@
 
   .Third-Background {
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 0rem;
     height: 150vh;
@@ -6044,6 +6027,9 @@
   }
 
   .Fourth-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 0rem;
     height: 140vh;
@@ -6097,8 +6083,7 @@
     left: 3rem;
   }
 
-
-  .Reservation{
+  .Reservation {
     font-size: 26px;
   }
 
@@ -6281,8 +6266,7 @@
   }
 }
 
-
-@media (min-width: 992px) and (min-height:580px) {
+@media (min-width: 992px) and (min-height: 580px) {
   .First-Background {
     display: flex;
     justify-content: center;
@@ -6291,7 +6275,6 @@
     height: 136vh;
     position: relative;
     top: -6rem;
-   
   }
 
   .slider {
@@ -6301,7 +6284,7 @@
     overflow: hidden;
     position: relative;
     top: 0rem;
-}
+  }
 
   .slides img {
     min-width: 992px;
@@ -6474,6 +6457,8 @@
 
   .Third-Background {
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 0rem;
     height: 135vh;
@@ -6599,6 +6584,9 @@
   }
 
   .Fourth-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 0rem;
     height: 130vh;
@@ -6652,8 +6640,7 @@
     left: 3rem;
   }
 
-
-  .Reservation{
+  .Reservation {
     font-size: 26px;
   }
 
@@ -6844,8 +6831,7 @@
   }
 }
 
-
-@media (min-width: 992px) and (min-height:700px) {
+@media (min-width: 992px) and (min-height: 700px) {
   .First-Background {
     display: flex;
     justify-content: center;
@@ -6854,7 +6840,6 @@
     height: 136vh;
     position: relative;
     top: -6rem;
-   
   }
 
   .slider {
@@ -6864,7 +6849,7 @@
     overflow: hidden;
     position: relative;
     top: 0rem;
-}
+  }
 
   .slides img {
     min-width: 992px;
@@ -7037,6 +7022,8 @@
 
   .Third-Background {
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 0rem;
     height: 100vh;
@@ -7163,6 +7150,9 @@
   }
 
   .Fourth-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 0rem;
     height: 130vh;
@@ -7217,8 +7207,7 @@
     left: 3rem;
   }
 
-
-  .Reservation{
+  .Reservation {
     font-size: 26px;
   }
 
@@ -7389,7 +7378,7 @@
   }
 
   .funny1 .phrase {
-    width: 50rem ;
+    width: 50rem;
   }
 
   .funny1 img {
@@ -7403,5 +7392,4 @@
     height: 2.5rem;
     font-size: 1.2rem;
   }
-
 }
