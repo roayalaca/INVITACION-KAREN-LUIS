@@ -2225,7 +2225,8 @@
     font-size: 18.5px;
     position: relative;
     bottom: 0.4rem;
-    width: 18rem;
+    width: 20rem;
+    left: 0.5rem;
   }
 
   .funny img {
@@ -2234,7 +2235,7 @@
   }
 
   .Form {
-    width: 19.5rem;
+    width: 21rem;
     height: 19rem;
     position: relative;
     right: 2rem;
@@ -2262,18 +2263,18 @@
 
   .div {
     position: relative;
-    left: 2rem;
+    left: 1rem;
     width: 17rem;
   }
 
   .input {
-    width: 17rem;
+    width: 19rem;
   }
 
   .div1 {
     width: 18rem;
     position: relative;
-    left: 2rem;
+    left: 1rem;
     top: 0.8rem;
   }
 
@@ -2325,7 +2326,7 @@
 
   .div2 {
     position: relative;
-    left: 2rem;
+    left: 1rem;
     top: 0.3rem;
   }
 
@@ -2335,7 +2336,7 @@
 
   .Form button {
     position: relative;
-    left: 2.2rem;
+    left: 1rem;
     width: 4.5rem;
     height: 2rem;
     font-size: 16px;
@@ -2355,7 +2356,8 @@
     font-size: 18.5px;
     position: relative;
     bottom: -0.4rem;
-    width: 17rem;
+    width: 21rem;
+    left: 0.5rem;
   }
 
   .funny1 img {
