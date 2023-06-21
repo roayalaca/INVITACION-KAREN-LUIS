@@ -6159,6 +6159,7 @@
     justify-content: center;
     align-items: center;
     height: 140vh;
+    top: 0rem;
   }
 
   .funny .attendance {
@@ -6713,6 +6714,7 @@
     justify-content: center;
     align-items: center;
     height: 140vh;
+    top: -1rem;
   }
 
   .funny .attendance {
@@ -6907,7 +6909,7 @@
     align-items: center;
     height: 50vh;
     position: relative;
-    top: -8rem;
+    top: -11rem;
   }
 
   .My-wedding {
@@ -7038,6 +7040,7 @@
     position: relative;
     left: 0rem;
     height: 100vh;
+    top: -6.5rem;
   }
 
   .Schedule {
@@ -7163,6 +7166,7 @@
     position: relative;
     left: 0rem;
     height: 130vh;
+    top: -12rem;
   }
 
   .Dressing {
@@ -7276,7 +7280,7 @@
     align-items: center;
     height: 140vh;
     position: relative;
-    top: 5rem;
+    top: -16rem;
   }
 
   .funny .attendance {
