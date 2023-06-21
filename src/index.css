@@ -525,7 +525,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 4rem;
+    top: 2rem;
   }
 
   .title {
@@ -643,7 +643,7 @@
     display: flex;
     position: relative;
     left: 0rem;
-    top: 2rem;
+    top: -4rem;
   }
 
   .Schedule {
@@ -694,7 +694,7 @@
   }
 
   .CereText {
-    width: 21rem;
+    width: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1051,7 +1051,7 @@
     align-items: center;
     position: relative;
     bottom: 13rem;
-    min-height: 90vh;
+    min-height: 85vh;
 }
 
   .Third-Background {
@@ -1060,7 +1060,7 @@
     align-items: center;
     position: relative;
     bottom: 13rem;
-    min-height: 90vh;
+    min-height: 85vh;
 }
 
   .Fourth-Background {
@@ -1068,8 +1068,8 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 13rem;
-    min-height: 90vh;
+    bottom: 14rem;
+    min-height: 60vh;
 }
 
   .Fifth-Background {
@@ -1077,14 +1077,30 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 13rem;
-    min-height: 90vh;
+    top: 12rem;
+    min-height: 80vh;
 }
 
-.funny1 img {
+.funny img {
     position: relative;
-    top: 0.5rem;
+    bottom: 1.2rem;
   }
+
+  .Flowers {
+    position: relative;
+    top: 1.5rem;
+  }
+
+   .Flowers2 {
+    position: relative;
+    top: 1rem;
+  }
+
+  .Flowers3 img{
+    position: relative;
+    bottom: -1rem;
+  }
+
 
 }
 
@@ -2185,7 +2201,7 @@
 
   .Presents p {
     font-size: 20.5px;
-    width: 18rem;
+    width: 21rem;
   }
 
   .presents-table img {
@@ -2200,12 +2216,12 @@
   .liverpool {
     position: relative;
     left: 1.3rem;
-    top: 0.5rem;
+    top: 1rem;
   }
 
   .amazon {
     position: relative;
-    top: 0.7rem;
+    top: 1.2rem;
     right: 1.2rem;
   }
 
@@ -2433,6 +2449,10 @@
     position: relative;
     bottom: 13rem;
     min-height: 90vh;
+}
+
+.Presents p {
+  width: 21rem;
 }
 
 .funny1 img {
@@ -4949,12 +4969,6 @@
     width: 20rem;
   }
 
-  .Presents p {
-    font-size: 22px;
-    width: 29rem;
-    position: relative;
-    top: -2.5rem;
-  }
 
   .presents-table img {
     width: 12.5rem;
@@ -5485,9 +5499,8 @@
 
   .Presents p {
     font-size: 22px;
-    width: 29rem;
     position: relative;
-    bottom: 3.5rem;
+    bottom: 2.5rem;
   }
 
   .presents-table img {
