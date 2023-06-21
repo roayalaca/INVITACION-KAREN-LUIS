@@ -1748,6 +1748,12 @@
     top: 0.5rem;
   }
 
+.funny1 .phrase {
+  position: relative;
+  width: 18rem;
+  left: 1rem;
+}
+
 }
 
 @media (min-width: 321px ) and (min-height:700px) {
@@ -2434,6 +2440,10 @@
     top: 0.5rem;
   }
 
+.funny1 .phrase {
+  width: 21rem;
+}
+
 }
 
 @media (min-width: 390px ) and (min-height:700px) {
@@ -2507,6 +2517,11 @@
     position: relative;
     top: 0.5rem;
   }
+
+  .funny1 .phrase {
+    width: 21.3rem;
+  }
+
 
 }
 
@@ -3011,7 +3026,7 @@
     font-size: 22px;
     position: relative;
     bottom: -0.4rem;
-    width: 32rem;
+    width: 33rem;
   }
 
   .funny1 img {
@@ -3525,6 +3540,11 @@
     position: relative;
     bottom: -0.4rem;
     width: 32rem;
+    left: 2rem;
+  }
+
+  .funny1 .phrase {
+    width: 32rem;
   }
 
   .funny1 img {
@@ -4037,7 +4057,11 @@
     font-size: 22px;
     position: relative;
     bottom: -0.4rem;
-    width: 32rem;
+    width: 42rem;
+  }
+
+  .funny1 .phrase {
+    width: 34rem;
   }
 
   .funny1 img {
@@ -4581,7 +4605,7 @@
     font-size: 22px;
     position: relative;
     bottom: -0.4rem;
-    width: 32rem;
+    width: 38rem;
   }
 
   .funny1 img {
@@ -5115,6 +5139,7 @@
     position: relative;
     bottom: -0.4rem;
     width: 32rem;
+    left: 2rem;
   }
 
   .funny1 img {
@@ -6104,12 +6129,13 @@
 
   .funny .phrase {
     font-size: 26px;
-    width: 46rem;
+    width: 48rem;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     bottom: 1.2rem;
+    left: 2rem;
   }
 
   .Form {
@@ -6186,7 +6212,7 @@
     font-size: 26px;
     position: relative;
     top: 0.5rem;
-    width: 42rem;
+    width: 45.5rem;
   }
 
   .funny1 img {
@@ -6744,6 +6770,10 @@
     font-size: 26px;
     position: relative;
     top: 0.5rem;
+    width: 48rem;
+  }
+
+  .funny1 .phrase {
     width: 48rem;
   }
 
@@ -7305,6 +7335,10 @@
     position: relative;
     top: 0.5rem;
     width: 48rem;
+  }
+
+  .funny1 .phrase {
+    width: 50rem ;
   }
 
   .funny1 img {

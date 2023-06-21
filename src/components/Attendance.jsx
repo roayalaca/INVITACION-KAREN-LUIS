@@ -130,7 +130,7 @@ const Attendance = () => {
       <div className="funny1">
         <p className="phrase">
           Agradecemos de antemano la confirmación de tu asistencia para celebrar
-          juntos este mágico momento
+          juntos este mágico momento.
         </p>
         <img src="./flowers.jpg" alt="" />
       </div>
