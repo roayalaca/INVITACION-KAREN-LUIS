@@ -1848,7 +1848,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 0.5rem;
+    top: 0i.5rem;
     min-height: 85vh;
 }
 
@@ -2048,12 +2048,14 @@
     width: 14rem;
     position: relative;
     left: 0.5rem;
+    top: 1.5rem;
   }
 
   .Third-Background {
     display: flex;
     position: relative;
     left: 0rem;
+    top: -1rem;
   }
 
   .Schedule {
@@ -2152,12 +2154,13 @@
   .Flowers2 img {
     width: 14.5rem;
     position: relative;
-    top: 1.5rem;
+    top: 2rem;
   }
 
   .Fourth-Background {
     position: relative;
     left: 0rem;
+    top: -2.5rem;
   }
 
   .DressCode {
@@ -2241,12 +2244,18 @@
   .Fifth-Background {
     position: relative;
     left: 0rem;
+    top: 5rem;
   }
 
   .funny {
     position: relative;
     left: 0rem;
     width: 18rem;
+  }
+
+  .funny img {
+    position: relative;
+    top: -0.8rem;
   }
 
   .funny .attendance {
