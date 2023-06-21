@@ -1057,7 +1057,7 @@
     align-items: center;
     position: relative;
     bottom: 13rem;
-    min-height: 85vh;
+    min-height: 95vh;
 }
 
   .Third-Background {
@@ -1066,8 +1066,9 @@
     align-items: center;
     position: relative;
     bottom: 13rem;
-    min-height: 85vh;
+    min-height: 90vh;
 }
+
 
   .Fourth-Background {
     display: flex;
@@ -1075,7 +1076,7 @@
     align-items: center;
     position: relative;
     bottom: 14rem;
-    min-height: 60vh;
+    min-height: 100vh;
 }
 
   .Fifth-Background {
@@ -1083,7 +1084,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 12rem;
+    top: 2.5rem;
     min-height: 80vh;
 }
 
@@ -1094,17 +1095,17 @@
 
   .Flowers {
     position: relative;
-    top: 1.5rem;
+    top: 0.2rem;
   }
 
    .Flowers2 {
     position: relative;
-    top: 1rem;
+    top: 0.5rem;
   }
 
   .Flowers3 img{
     position: relative;
-    bottom: -1rem;
+    bottom: 0rem;
   }
 
 
