@@ -3085,6 +3085,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+ 
   }
 
   .slider {
@@ -3116,6 +3117,8 @@
     justify-content: center;
     align-items: center;
     height: 90vh;
+    position: relative;
+    top: 3rem;
   }
 
   .My-wedding {
@@ -3338,6 +3341,7 @@
     position: relative;
     left: 0rem;
     height: 105vh;
+    top: -7rem;
   }
 
   .DressCode {
@@ -3430,6 +3434,7 @@
     position: relative;
     left: 0rem;
     height: 130vh;
+    top: -0.5rem;
   }
 
   .funny {
@@ -3752,6 +3757,7 @@
     position: relative;
     left: 0rem;
     height: 95vh;
+    top: -3.5rem;
   }
 
   .Schedule {
@@ -3856,6 +3862,7 @@
     position: relative;
     left: 0rem;
     height: 95vh;
+    top: -8.5rem;
   }
 
   .DressCode {
@@ -3948,6 +3955,7 @@
     position: relative;
     left: 0rem;
     height: 105vh;
+    top: -3.5rem;
   }
 
   .funny {
