@@ -2442,7 +2442,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 13rem;
+    top: 4rem;
     min-height: 90vh;
 }
 
@@ -2451,7 +2451,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 13rem;
+    top: 1.3rem;
     min-height: 90vh;
 }
 
@@ -2460,7 +2460,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 13rem;
+    top: 0.4rem;
     min-height: 90vh;
 }
 
@@ -2469,7 +2469,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 13rem;
+    top: 8rem;
     min-height: 90vh;
 }
 
