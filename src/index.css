@@ -2719,6 +2719,7 @@
     position: relative;
     left: 0rem;
     height: 125vh;
+    top: -3rem;
   }
 
   .Schedule {
@@ -2823,6 +2824,7 @@
     position: relative;
     left: 0rem;
     height: 130vh;
+    top: -8rem;
   }
 
   .DressCode {
@@ -2914,6 +2916,7 @@
   .Fifth-Background {
     position: relative;
     left: 0rem;
+    top: -2rem;
   }
 
   .funny {
