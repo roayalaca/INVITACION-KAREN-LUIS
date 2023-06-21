@@ -637,13 +637,14 @@
     width: 13rem;
     position: relative;
     left: 0.5rem;
+    top: 1.9rem;
   }
 
   .Third-Background {
     display: flex;
     position: relative;
     left: 0rem;
-    top: -4rem;
+    top: -2.5rem;
   }
 
   .Schedule {
@@ -742,13 +743,13 @@
   .Flowers2 img {
     width: 13rem;
     position: relative;
-    top: 1rem;
+    top: 2.5rem;
   }
 
   .Fourth-Background {
     position: relative;
     left: 0rem;
-    top: 3rem;
+    top: -4.8rem;
   }
 
   .DressCode {
@@ -806,7 +807,7 @@
 
   .Flowers3{
     position: relative;
-    top: 2rem;
+    top: 2.7rem;
   }
 
   .Presents {
@@ -848,7 +849,12 @@
   .Fifth-Background {
     position: relative;
     left: 0rem;
-    top: 13.2rem;
+    top: 1rem;
+  }
+
+  .funny img {
+    position: relative;
+    bottom: 1rem;
   }
 
   .funny {
