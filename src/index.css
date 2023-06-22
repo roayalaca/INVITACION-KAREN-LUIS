@@ -528,7 +528,6 @@
     position: relative;
     top: 2rem;
     height: 100vh;
-    background-color: red;
   }
 
   .title {
@@ -660,7 +659,6 @@
     left: 0rem;
     top: 2rem;
     height: 100vh;
-    background-color: blue;
   }
 
   .Schedule {
@@ -774,7 +772,6 @@
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background-color: gray;
   }
 
   .DressCode {
@@ -843,7 +840,6 @@
 
   .Sixth-Background {
     height: 66vh;
-    background-color: orange;
     position: relative;
     top: -8.7rem;
   }
@@ -903,7 +899,6 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: aqua;
   }
 
   .funny img {
