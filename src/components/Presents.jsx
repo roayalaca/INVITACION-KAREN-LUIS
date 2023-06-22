@@ -3,13 +3,16 @@ import React from 'react';
 const Presents = () => {
     return (
       <div className="Sixth-Background">
-        <div className="Presents">
+        <div className="Sixth">
           <p className="p-presents">Mesa de Regalos</p>
-          <p>
-            El mejor regalo que nos puedes dar es tu presencia, pero si quieres
-            obsequiarnos algo puedes hacerlo a través de las siguientes mesas de
-            regalos:
-          </p>
+          <div className="best">
+            <p>
+              El mejor regalo que nos puedes dar es tu presencia, pero si
+              quieres obsequiarnos algo puedes hacerlo a través de las
+              siguientes mesas de regalos:
+            </p>
+          </div>
+
           <div className="presents-table">
             <div className="liverpool">
               <a
@@ -27,10 +30,6 @@ const Presents = () => {
               >
                 <img src="./amazon.jpg" alt="" />
               </a>
-            </div>
-
-            <div className='Flowers4'>
-              <img src="./flowers.jpg" alt="" />
             </div>
           </div>
         </div>

@@ -44,94 +44,96 @@ const Attendance = () => {
 
   return (
     <div className="Fifth-Background">
-      <div className="funny">
-        <p className="attendance">Confirma tu asistencia</p>
-        <p className="phrase">
-          Te invitamos cordialmente a ser parte de nuestro amor en este
-          día tan especial.
-        </p>
-      </div>
+      <div className="Fifth">
+        <div className="funny">
+          <p className="attendance">Confirma tu asistencia</p>
+          <p className="phrase">
+            Te invitamos cordialmente a ser parte de nuestro amor en este
+            día tan especial.
+          </p>
+        </div>
 
-      <div className="Form">
-        <form onSubmit={(e) => submit(e)}>
-          <div className="div">
-            <label htmlFor="name" className="name">
-              <strong>Nombre completo</strong>
-            </label>
-            <input
-              className="input"
-              name="name"
-              id="name"
-              value={name}
-              type="text"
-              onChange={(e) => setName(e.target.value)}
-            />
-          </div>
+        <div className="Form">
+          <form onSubmit={(e) => submit(e)}>
+            <div className="div">
+              <label htmlFor="name" className="name">
+                <strong>Nombre completo</strong>
+              </label>
+              <input
+                className="input"
+                name="name"
+                id="name"
+                value={name}
+                type="text"
+                onChange={(e) => setName(e.target.value)}
+              />
+            </div>
 
-          <div className="div1">
-            <strong className="middle">Confirmación</strong>
-            <br />
+            <div className="div1">
+              <strong className="middle">Confirmación</strong>
+              <br />
 
-            <div className="options">
-              <div className="yes">
-                <label htmlFor="Si" className="confirmation">
-                  Sí asistiré
-                </label>
-                <input
-                  className="input1"
-                  name="attendance"
-                  id="Si"
-                  type="radio"
-                  checked={attendance === "sí"}
-                  onChange={() => setAttendance("sí")}
-                />
-              </div>
+              <div className="options">
+                <div className="yes">
+                  <label htmlFor="Si" className="confirmation">
+                    Sí asistiré
+                  </label>
+                  <input
+                    className="input1"
+                    name="attendance"
+                    id="Si"
+                    type="radio"
+                    checked={attendance === "sí"}
+                    onChange={() => setAttendance("sí")}
+                  />
+                </div>
 
-              <div className="no">
-                <label htmlFor="No" className="confirmation">
-                  No asistiré
-                </label>
-                <input
-                  className="input2"
-                  name="attendance"
-                  id="No"
-                  type="radio"
-                  checked={attendance === "no"}
-                  onChange={() => setAttendance("no")}
-                />
+                <div className="no">
+                  <label htmlFor="No" className="confirmation">
+                    No asistiré
+                  </label>
+                  <input
+                    className="input2"
+                    name="attendance"
+                    id="No"
+                    type="radio"
+                    checked={attendance === "no"}
+                    onChange={() => setAttendance("no")}
+                  />
+                </div>
               </div>
             </div>
-          </div>
 
-          <br />
+            <br />
 
-          <div className="div2">
-            <label htmlFor="phone" className="name">
-              <strong>Whatsapp/Teléfono</strong>
-            </label>
+            <div className="div2">
+              <label htmlFor="phone" className="name">
+                <strong>Whatsapp/Teléfono</strong>
+              </label>
 
-            <input
-              className="input"
-              name="phone"
-              id="phone"
-              value={phone}
-              type="text"
-              onChange={(e) => setPhone(e.target.value)}
-            />
-          </div>
+              <input
+                className="input"
+                name="phone"
+                id="phone"
+                value={phone}
+                type="text"
+                onChange={(e) => setPhone(e.target.value)}
+              />
+            </div>
 
-          <br />
+            <br />
 
-          <button type="submit">Enviar</button>
-        </form>
-      </div>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
 
-      <div className="funny1">
-        <p className="phrase">
-          Agradecemos de antemano la confirmación de tu asistencia para celebrar
-          juntos este mágico momento.
-        </p>
-        <img src="./flowers.jpg" alt="" />
+        <div className="funny1">
+          <p className="phrase">
+            Agradecemos de antemano la confirmación de tu asistencia para
+            celebrar juntos este mágico momento.
+          </p>
+        </div>
+        
       </div>
     </div>
   );

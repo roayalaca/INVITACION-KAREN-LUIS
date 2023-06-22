@@ -43,49 +43,45 @@ const Mywedding = () => {
 
     return (
       <div className="Second-Background">
-        <div className="My-wedding">
-          <p>Nuestra</p>
-          <p className="Wedding">Boda</p>
-        </div>
-
-        <div className="Date">
-          <p>¡Nos casamos!</p>
-          <h1>4 NOVIEMBRE 2023</h1>
-          <p className="Guadalajara">Guadalajara, Jalisco</p>
-        </div>
-
-        <div className="Counter">
-          <div className='days1'>
-            <p className="days">{days}</p>
-            <p>
-              <small>Días</small>
-            </p>
+        <div className='Second'>
+          <div className="My-wedding">
+            <p>Nuestra</p>
+            <p className="Wedding">Boda</p>
           </div>
-          <div className='hours1'>
-            <p className="hours">{hours}</p>
-            <p>
-              <small>Horas</small>
-            </p>
+
+          <div className="Date">
+            <p>¡Nos casamos!</p>
+            <h1>4 NOVIEMBRE 2023</h1>
+            <p className="Guadalajara">Guadalajara, Jalisco</p>
           </div>
-          <div className='minutes1'>
-            <p className="minutes">{minutes}</p>
-            <p>
-              <small>Minutos</small>
-            </p>
-          </div>
-          <div className='seconds1'>
-            <p className="seconds">{seconds}</p>
-            <p>
-              <small>Segundos</small>
-            </p>
+
+          <div className="Counter">
+            <div className="days1">
+              <p className="days">{days}</p>
+              <p>
+                <small>Días</small>
+              </p>
+            </div>
+            <div className="hours1">
+              <p className="hours">{hours}</p>
+              <p>
+                <small>Horas</small>
+              </p>
+            </div>
+            <div className="minutes1">
+              <p className="minutes">{minutes}</p>
+              <p>
+                <small>Minutos</small>
+              </p>
+            </div>
+            <div className="seconds1">
+              <p className="seconds">{seconds}</p>
+              <p>
+                <small>Segundos</small>
+              </p>
+            </div>
           </div>
         </div>
-
-        <div className='Flowers'>
-            <img src="./flowers.jpg" alt="" />
-        </div>
-
-
       </div>
     );
 };
