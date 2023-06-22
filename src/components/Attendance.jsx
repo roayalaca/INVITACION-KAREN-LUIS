@@ -45,7 +45,6 @@ const Attendance = () => {
   return (
     <div className="Fifth-Background">
       <div className="funny">
-        <img src="./flowers.jpg" alt="" />
         <p className="attendance">Confirma tu asistencia</p>
         <p className="phrase">
           Te invitamos cordialmente a ser parte de nuestro amor en este

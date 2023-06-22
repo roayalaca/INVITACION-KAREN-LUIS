@@ -5,6 +5,7 @@ import Schedule from "./components/Schedule";
 import DressCode from "./components/DressCode";
 import Attendance from "./components/Attendance";
 import Photos from "./components/Photos";
+import Presents from "./components/Presents";
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Schedule />
 
         <DressCode />
+        <Presents/>
         <Attendance />
       </div>
     </>
