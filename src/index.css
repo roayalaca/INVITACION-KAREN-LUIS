@@ -7593,6 +7593,7 @@
 
   .options {
     display: flex;
+    width: 20rem;
   }
 
   .div label {
@@ -7622,12 +7623,12 @@
   }
 
   .yes {
-    width: 10rem;
+    width: 8rem;
     display: flex;
   }
 
   .no {
-    width: 12rem;
+    width: 10rem;
     display: flex;
     position: relative;
     left: 2rem;
@@ -7649,8 +7650,8 @@
 
   #No {
     position: relative;
-    right: 0.7rem;
-    top: 0rem;
+    right: -0.4rem;
+    top: 0.2rem;
   }
 
   .input1 {
@@ -7658,7 +7659,7 @@
   }
 
   .input2 {
-    width: 4rem;
+    width: 2rem;
   }
 
   .div1 strong {
