@@ -7622,15 +7622,15 @@
   }
 
   .yes {
-    width: 9rem;
+    width: 10rem;
     display: flex;
   }
 
   .no {
-    width: 11rem;
+    width: 12rem;
     display: flex;
     position: relative;
-    left: 4rem;
+    left: 2rem;
   }
 
   .yes label {
@@ -7649,8 +7649,8 @@
 
   #No {
     position: relative;
-    right: 0.5rem;
-    top: 0.2rem;
+    right: 0.7rem;
+    top: 0rem;
   }
 
   .input1 {
