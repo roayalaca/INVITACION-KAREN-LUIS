@@ -5738,7 +5738,6 @@
     position: relative;
     top: 0rem;
     height: 80vh;
-    background-color: red;
     width: 390px;
   }
 
@@ -5871,7 +5870,6 @@
     position: relative;
     top: 0rem;
     height: 80vh;
-    background-color: green;
     width: 390px;
   }
 
@@ -5993,7 +5991,6 @@
     justify-content: center;
     align-items: center;
     height: 60vh;
-    background-color: yellow;
     width: 390px;
   }
 
@@ -6005,15 +6002,6 @@
     height: 23rem;
   }
 
-  .DressCode {
-    position: relative;
-    top: -0.5rem;
-    width: 30rem;
-  }
-
-  .DressCode p {
-    font-size: 45px;
-  }
 
   .Dressing {
     height: 10rem;
@@ -6025,38 +6013,59 @@
   }
 
   .Traje p{
-    font-size: 17px;
+    font-size: 18px;
   }
 
    .Dress p{
-    font-size: 17px;
+    font-size: 18px;
+  }
+
+  .Traje img {
+    width: 6.5rem;
+  }
+
+   .Dress img {
+    width: 6.5rem;
+  }
+
+  .Traje {
+    position: relative;
+    bottom: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .Dress {
+    position: relative;
+    bottom: 0.5rem;
+    left: 0.5rem;
   }
 
   .Formal {
-    font-size: 16px;
+    font-size: 18px;
     position: relative;
     left: 0.2rem;
+    bottom: 0.5rem;
   }
 
   .DressCode {
-    width: 19.5rem;
-    font-size: 43px;
+    width: 20.5rem;
+    font-size: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 3rem;
+    bottom: 3.2rem;
   }
 
 
   .Reservation {
-    font-size: 17px;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 0rem;
+    top: 0.5rem;
   }
 
   
@@ -6073,23 +6082,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 30rem;
+    height: 17rem;
+    width: 390px;
   }
 
  
   .Sixth .p-presents {
     position: relative;
-    bottom: 1.1rem;
+    bottom: 1.2rem;
     left: 0rem;
     font-family: "Great Vibes", cursive;
-    font-size: 41px;
-    width: 16rem;
+    font-size: 43px;
+    width: 18rem;
   }
 
   .best {
-    font-size: 17px;
+    font-size: 18px;
     position: relative;
-    bottom: 0rem;
+    bottom: 0.5rem;
     width: 20rem;
   }
 
@@ -6100,10 +6110,10 @@
   }
 
   .presents-table img {
-    width: 8.8rem;
-    height: 5rem;
+    width: 9.4rem;
+    height: 5.2rem;
     position: relative;
-    bottom: 0.7rem;
+    bottom: 0.6rem;
   }
 
   .liverpool {
@@ -6126,11 +6136,11 @@
   }
 
   .Fifth-Background {
-      height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20rem;
+    width: 390px;
   }
 
    .Fifth {
@@ -6139,7 +6149,7 @@
     justify-content: center;
     align-items: center;
     height: 30rem;
-    width: 20rem;
+    width: 390px;
   }
 
   .funny img {
@@ -6150,22 +6160,22 @@
   .funny {
     position: relative;
     left: 0rem;
-    width: 18rem;
+    width: 19rem;
     bottom: 3.3rem;
   }
 
   .funny .attendance {
-    font-size: 43px;
+    font-size: 45px;
     font-family: "Great Vibes", cursive;
     position: relative;
-    bottom: -1.8rem;
+    bottom: -1.9rem;
   }
 
   .funny .phrase {
-    font-size: 17.5px;
+    font-size: 18.5px;
     position: relative;
-    bottom: -2.5rem;
-    width: 18rem;
+    bottom: -2.7rem;
+    width: 20rem;
   }
 
   .funny .phrase2 {
@@ -6181,8 +6191,8 @@
   }
 
   .Form {
-    width: 18rem;
-    height: 18rem;
+    width: 22rem;
+    height: 20rem;
     position: relative;
     right: 2.5rem;
     display: flex;
@@ -6208,24 +6218,24 @@
   }
 
   .div label {
-    font-size: 27px;
+    font-size: 29px;
   }
 
   .div {
     position: relative;
-    left: 2rem;
+    left: 1rem;
     width: 17rem;
   }
 
   .input {
-    width: 17rem;
+    width: 19rem;
   }
 
   .div1 {
     width: 17rem;
     position: relative;
-    left: 2rem;
-    top: 0.8rem;
+    left: 1rem;
+    top: 1.1rem;
   }
 
   .div2 {
@@ -6233,33 +6243,33 @@
   }
 
   .yes {
-    width: 8rem;
-    display: flex;
-  }
-
-  .no {
     width: 9rem;
     display: flex;
   }
 
+  .no {
+    width: 11rem;
+    display: flex;
+  }
+
   .yes label {
-    font-size: 18px;
+    font-size: 19px;
   }
 
   .no label {
-    font-size: 18px;
+    font-size: 19px;
   }
 
   #Si {
     position: relative;
     right: -0.3rem;
-    top: 0.2rem;
+    top: 0rem;
   }
 
   #No {
     position: relative;
-    right: -0.3rem;
-    top: 0.2rem;
+    right: 0.7rem;
+    top: 0rem;
   }
 
   .input1 {
@@ -6271,22 +6281,26 @@
   }
 
   .div1 strong {
-    font-size: 27px;
+    font-size: 29px;
   }
 
   .div2 {
     position: relative;
-    left: 2rem;
-    top: 0.3rem;
+    left: 1rem;
+    top: 0.7rem;
   }
 
   .div2 label {
-    font-size: 27px;
+    font-size: 29px;
   }
 
   .Form button {
     position: relative;
-    left: 2.2rem;
+    left: 1rem;
+    width: 5rem;
+    height: 2.5rem;
+    font-size: 15px;
+    top: 0.5rem;
   }
 
   .funny1 {
@@ -6297,10 +6311,10 @@
   }
 
   .funny1 p {
-    font-size: 17.5px;
+    font-size: 18.5px;
     position: relative;
     bottom: -0.7rem;
-    width: 17rem;
+    width: 21rem;
   }
 
   .funny1 img {
@@ -6310,6 +6324,1880 @@
   }
 }
 
+@media (min-width: 390px) and (min-height: 580px) {
+  .App {
+    position: relative;
+    bottom: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .First-Background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .slider {
+    width: 390px;
+    height: 580px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .slides img {
+    width: 390px;
+    height: 580px;
+  }
+
+
+  .Second-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0rem;
+    height: 80vh;
+    width: 390px;
+  }
+
+  .Second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+  }
+
+  .title {
+    position: relative;
+    top: 23rem;
+    font-size: 39px;
+    color: #fff;
+    left: 0rem;
+    width: 19rem;
+    z-index: 100;
+  }
+
+  .My-wedding {
+    font-size: 56px;
+    position: relative;
+    left: 0.7rem;
+    bottom: 0.5rem;
+  }
+
+  .Date {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0rem;
+  }
+
+  .Date p {
+    font-size: 25px;
+    position: relative;
+    right: 2rem;
+  }
+
+  .Date h1 {
+    font-size: 27px;
+    position: relative;
+    left: 0.2rem;
+  }
+
+  .Guadalajara {
+    position: relative;
+    bottom: 0.2rem;
+  }
+
+  .Counter {
+    width: 21.5rem;
+    position: relative;
+    right: 0.8rem;
+    top: 1.8rem;
+  }
+
+  .days1 {
+    width: 4rem;
+  }
+
+  .days {
+    font-size: 22px;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .days1 small {
+    font-size: 17px;
+  }
+
+  .hours1 {
+    width: 4rem;
+  }
+
+  .hours {
+    font-size: 22px;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .hours1 small {
+    font-size: 17px;
+  }
+
+  .minutes1 {
+    width: 4rem;
+  }
+
+  .minutes {
+    font-size: 22px;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .minutes1 small {
+    font-size: 17px;
+  }
+
+  .seconds1 {
+    width: 4rem;
+  }
+
+  .seconds {
+    font-size: 22px;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .seconds1 small {
+    font-size: 17px;
+  }
+
+  .Flowers {
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Third-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0rem;
+    height: 80vh;
+    width: 390px;
+  }
+
+   .Third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+  }
+
+  .Schedule {
+    font-size: 57px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 1rem;
+  }
+
+  .Schedule1 {
+    position: relative;
+    right: 0rem;
+    width: 20rem;
+    top: 0.5rem;
+  }
+
+  .CereImage {
+    position: relative;
+    right: 1.8rem;
+    width: 14rem;
+  }
+
+  .CereImage img {
+    width: 4.8rem;
+  }
+
+  .CereImage p {
+    font-size: 22px;
+  }
+
+  .p1 {
+    font-size: 10px;
+  }
+
+  .CereImage a {
+    font-size: 21px;
+  }
+
+  .Ceremony {
+    width: 22rem;
+    position: relative;
+    left: -0.5rem;
+    bottom: 1.8rem;
+  }
+
+  .Cheers {
+    width: 20rem;
+    position: relative;
+    left: 0rem;
+    top: 0.8rem;
+  }
+
+  .CereText {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 0.2rem;
+  }
+
+  .CereText h1 {
+    font-size: 20px;
+  }
+
+  .CereText h2 {
+    font-size: 16.5px;
+    width: 13rem;
+  }
+
+  .CereText p {
+    font-size: 16px;
+    width: 13.5rem;
+  }
+
+  .CheersText {
+    width: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0.8rem;
+  }
+
+  .CheersText h1 {
+    font-size: 20px;
+  }
+
+  .CheersText h2 {
+    font-size: 16.5px;
+  }
+
+  .CheersText p {
+    font-size: 16px;
+    width: 13rem;
+  }
+
+  .Flowers2 img {
+    width: 16rem;
+    position: relative;
+    top: 1.8rem;
+  }
+
+  .Fourth-Background {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 390px;
+  }
+
+   .Fourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 23rem;
+  }
+
+
+  .Dressing {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 1rem;
+  }
+
+  .Traje p{
+    font-size: 18px;
+  }
+
+   .Dress p{
+    font-size: 18px;
+  }
+
+  .Traje img {
+    width: 6.5rem;
+  }
+
+   .Dress img {
+    width: 6.5rem;
+  }
+
+  .Traje {
+    position: relative;
+    bottom: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .Dress {
+    position: relative;
+    bottom: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .Formal {
+    font-size: 18px;
+    position: relative;
+    left: 0.2rem;
+    bottom: 0.5rem;
+  }
+
+  .DressCode {
+    width: 20.5rem;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 3.2rem;
+  }
+
+
+  .Reservation {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0.5rem;
+  }
+
+  
+
+  .Sixth-Background {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Sixth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 17rem;
+    width: 390px;
+  }
+
+ 
+  .Sixth .p-presents {
+    position: relative;
+    bottom: 1.2rem;
+    left: 0rem;
+    font-family: "Great Vibes", cursive;
+    font-size: 43px;
+    width: 18rem;
+  }
+
+  .best {
+    font-size: 18px;
+    position: relative;
+    bottom: 0.5rem;
+    width: 20rem;
+  }
+
+  .presents-table {
+    width: 18rem;
+    display: grid;
+    place-content: center;
+  }
+
+  .presents-table img {
+    width: 9.4rem;
+    height: 5.2rem;
+    position: relative;
+    bottom: 0.6rem;
+  }
+
+  .liverpool {
+    position: relative;
+    left: 1.5rem;
+    top: 1.5rem;
+  }
+
+  .amazon {
+    position: relative;
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+
+  .Flowers4 img {
+    width: 16rem;
+    position: relative;
+    left: 6rem;
+    bottom: -1rem;
+  }
+
+  .Fifth-Background {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+  }
+
+   .Fifth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 390px;
+  }
+
+  .funny img {
+    position: relative;
+    bottom: 1rem;
+  }
+
+  .funny {
+    position: relative;
+    left: 0rem;
+    width: 19rem;
+    bottom: 3.3rem;
+  }
+
+  .funny .attendance {
+    font-size: 45px;
+    font-family: "Great Vibes", cursive;
+    position: relative;
+    bottom: -1.9rem;
+  }
+
+  .funny .phrase {
+    font-size: 18.5px;
+    position: relative;
+    bottom: -2.7rem;
+    width: 20rem;
+  }
+
+  .funny .phrase2 {
+    font-size: 17.5px;
+    position: relative;
+    bottom: 0rem;
+    width: 18rem;
+  }
+
+  .funny img {
+    position: relative;
+    width: 13rem;
+  }
+
+  .Form {
+    width: 22rem;
+    height: 20rem;
+    position: relative;
+    right: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0.3rem;
+  }
+
+  .Form form {
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 2rem;
+  }
+
+  .confirmation input {
+    background-color: red;
+  }
+
+  .options {
+    display: flex;
+  }
+
+  .div label {
+    font-size: 29px;
+  }
+
+  .div {
+    position: relative;
+    left: 1rem;
+    width: 17rem;
+  }
+
+  .input {
+    width: 19rem;
+  }
+
+  .div1 {
+    width: 17rem;
+    position: relative;
+    left: 1rem;
+    top: 1.1rem;
+  }
+
+  .div2 {
+    width: 17rem;
+  }
+
+  .yes {
+    width: 9rem;
+    display: flex;
+  }
+
+  .no {
+    width: 11rem;
+    display: flex;
+  }
+
+  .yes label {
+    font-size: 19px;
+  }
+
+  .no label {
+    font-size: 19px;
+  }
+
+  #Si {
+    position: relative;
+    right: -0.3rem;
+    top: 0rem;
+  }
+
+  #No {
+    position: relative;
+    right: 0.7rem;
+    top: 0rem;
+  }
+
+  .input1 {
+    width: 2rem;
+  }
+
+  .input2 {
+    width: 4rem;
+  }
+
+  .div1 strong {
+    font-size: 29px;
+  }
+
+  .div2 {
+    position: relative;
+    left: 1rem;
+    top: 0.7rem;
+  }
+
+  .div2 label {
+    font-size: 29px;
+  }
+
+  .Form button {
+    position: relative;
+    left: 1rem;
+    width: 5rem;
+    height: 2.5rem;
+    font-size: 15px;
+    top: 0.5rem;
+  }
+
+  .funny1 {
+    position: relative;
+    left: 0rem;
+    width: 18rem;
+    bottom: 0rem;
+  }
+
+  .funny1 p {
+    font-size: 18.5px;
+    position: relative;
+    bottom: -0.7rem;
+    width: 21rem;
+  }
+
+  .funny1 img {
+    position: relative;
+    top: 3rem;
+    width: 16rem;
+  }
+}
+
+@media (min-width: 390px) and (min-height: 640px) {
+  .App {
+    position: relative;
+    bottom: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .First-Background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .slider {
+    width: 390px;
+    height: 640px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .slides img {
+    width: 390px;
+    height: 640px;
+  }
+
+
+  .Second-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0rem;
+    height: 80vh;
+    width: 390px;
+  }
+
+  .Second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+  }
+
+  .title {
+    position: relative;
+    top: 25rem;
+    font-size: 39px;
+    color: #fff;
+    left: 0rem;
+    width: 19rem;
+    z-index: 100;
+  }
+
+  .My-wedding {
+    font-size: 56px;
+    position: relative;
+    left: 0.7rem;
+    bottom: 0.5rem;
+  }
+
+  .Date {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0rem;
+  }
+
+  .Date p {
+    font-size: 25px;
+    position: relative;
+    right: 2rem;
+  }
+
+  .Date h1 {
+    font-size: 27px;
+    position: relative;
+    left: 0.2rem;
+  }
+
+  .Guadalajara {
+    position: relative;
+    bottom: 0.2rem;
+  }
+
+  .Counter {
+    width: 21.5rem;
+    position: relative;
+    right: 0.8rem;
+    top: 1.8rem;
+  }
+
+  .days1 {
+    width: 4rem;
+  }
+
+  .days {
+    font-size: 22px;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .days1 small {
+    font-size: 17px;
+  }
+
+  .hours1 {
+    width: 4rem;
+  }
+
+  .hours {
+    font-size: 22px;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .hours1 small {
+    font-size: 17px;
+  }
+
+  .minutes1 {
+    width: 4rem;
+  }
+
+  .minutes {
+    font-size: 22px;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .minutes1 small {
+    font-size: 17px;
+  }
+
+  .seconds1 {
+    width: 4rem;
+  }
+
+  .seconds {
+    font-size: 22px;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .seconds1 small {
+    font-size: 17px;
+  }
+
+  .Flowers {
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Third-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0rem;
+    height: 80vh;
+    width: 390px;
+  }
+
+   .Third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+  }
+
+  .Schedule {
+    font-size: 57px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 1rem;
+  }
+
+  .Schedule1 {
+    position: relative;
+    right: 0rem;
+    width: 20rem;
+    top: 0.5rem;
+  }
+
+  .CereImage {
+    position: relative;
+    right: 1.8rem;
+    width: 14rem;
+  }
+
+  .CereImage img {
+    width: 4.8rem;
+  }
+
+  .CereImage p {
+    font-size: 22px;
+  }
+
+  .p1 {
+    font-size: 10px;
+  }
+
+  .CereImage a {
+    font-size: 21px;
+  }
+
+  .Ceremony {
+    width: 22rem;
+    position: relative;
+    left: -0.5rem;
+    bottom: 1.8rem;
+  }
+
+  .Cheers {
+    width: 20rem;
+    position: relative;
+    left: 0rem;
+    top: 0.8rem;
+  }
+
+  .CereText {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 0.2rem;
+  }
+
+  .CereText h1 {
+    font-size: 20px;
+  }
+
+  .CereText h2 {
+    font-size: 16.5px;
+    width: 13rem;
+  }
+
+  .CereText p {
+    font-size: 16px;
+    width: 13.5rem;
+  }
+
+  .CheersText {
+    width: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0.8rem;
+  }
+
+  .CheersText h1 {
+    font-size: 20px;
+  }
+
+  .CheersText h2 {
+    font-size: 16.5px;
+  }
+
+  .CheersText p {
+    font-size: 16px;
+    width: 13rem;
+  }
+
+  .Flowers2 img {
+    width: 16rem;
+    position: relative;
+    top: 1.8rem;
+  }
+
+  .Fourth-Background {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 390px;
+  }
+
+   .Fourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 23rem;
+  }
+
+
+  .Dressing {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 1rem;
+  }
+
+  .Traje p{
+    font-size: 18px;
+  }
+
+   .Dress p{
+    font-size: 18px;
+  }
+
+  .Traje img {
+    width: 6.5rem;
+  }
+
+   .Dress img {
+    width: 6.5rem;
+  }
+
+  .Traje {
+    position: relative;
+    bottom: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .Dress {
+    position: relative;
+    bottom: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .Formal {
+    font-size: 18px;
+    position: relative;
+    left: 0.2rem;
+    bottom: 0.5rem;
+  }
+
+  .DressCode {
+    width: 20.5rem;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 3.2rem;
+  }
+
+
+  .Reservation {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0.5rem;
+  }
+
+  
+
+  .Sixth-Background {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Sixth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 17rem;
+    width: 390px;
+  }
+
+ 
+  .Sixth .p-presents {
+    position: relative;
+    bottom: 1.2rem;
+    left: 0rem;
+    font-family: "Great Vibes", cursive;
+    font-size: 43px;
+    width: 18rem;
+  }
+
+  .best {
+    font-size: 18px;
+    position: relative;
+    bottom: 0.5rem;
+    width: 20rem;
+  }
+
+  .presents-table {
+    width: 18rem;
+    display: grid;
+    place-content: center;
+  }
+
+  .presents-table img {
+    width: 9.4rem;
+    height: 5.2rem;
+    position: relative;
+    bottom: 0.6rem;
+  }
+
+  .liverpool {
+    position: relative;
+    left: 1.5rem;
+    top: 1.5rem;
+  }
+
+  .amazon {
+    position: relative;
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+
+  .Flowers4 img {
+    width: 16rem;
+    position: relative;
+    left: 6rem;
+    bottom: -1rem;
+  }
+
+  .Fifth-Background {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+  }
+
+   .Fifth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 390px;
+  }
+
+  .funny img {
+    position: relative;
+    bottom: 1rem;
+  }
+
+  .funny {
+    position: relative;
+    left: 0rem;
+    width: 19rem;
+    bottom: 3.3rem;
+  }
+
+  .funny .attendance {
+    font-size: 45px;
+    font-family: "Great Vibes", cursive;
+    position: relative;
+    bottom: -1.9rem;
+  }
+
+  .funny .phrase {
+    font-size: 18.5px;
+    position: relative;
+    bottom: -2.7rem;
+    width: 20rem;
+  }
+
+  .funny .phrase2 {
+    font-size: 17.5px;
+    position: relative;
+    bottom: 0rem;
+    width: 18rem;
+  }
+
+  .funny img {
+    position: relative;
+    width: 13rem;
+  }
+
+  .Form {
+    width: 22rem;
+    height: 20rem;
+    position: relative;
+    right: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0.3rem;
+  }
+
+  .Form form {
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 2rem;
+  }
+
+  .confirmation input {
+    background-color: red;
+  }
+
+  .options {
+    display: flex;
+  }
+
+  .div label {
+    font-size: 29px;
+  }
+
+  .div {
+    position: relative;
+    left: 1rem;
+    width: 17rem;
+  }
+
+  .input {
+    width: 19rem;
+  }
+
+  .div1 {
+    width: 17rem;
+    position: relative;
+    left: 1rem;
+    top: 1.1rem;
+  }
+
+  .div2 {
+    width: 17rem;
+  }
+
+  .yes {
+    width: 9rem;
+    display: flex;
+  }
+
+  .no {
+    width: 11rem;
+    display: flex;
+  }
+
+  .yes label {
+    font-size: 19px;
+  }
+
+  .no label {
+    font-size: 19px;
+  }
+
+  #Si {
+    position: relative;
+    right: -0.3rem;
+    top: 0rem;
+  }
+
+  #No {
+    position: relative;
+    right: 0.7rem;
+    top: 0rem;
+  }
+
+  .input1 {
+    width: 2rem;
+  }
+
+  .input2 {
+    width: 4rem;
+  }
+
+  .div1 strong {
+    font-size: 29px;
+  }
+
+  .div2 {
+    position: relative;
+    left: 1rem;
+    top: 0.7rem;
+  }
+
+  .div2 label {
+    font-size: 29px;
+  }
+
+  .Form button {
+    position: relative;
+    left: 1rem;
+    width: 5rem;
+    height: 2.5rem;
+    font-size: 15px;
+    top: 0.5rem;
+  }
+
+  .funny1 {
+    position: relative;
+    left: 0rem;
+    width: 18rem;
+    bottom: 0rem;
+  }
+
+  .funny1 p {
+    font-size: 18.5px;
+    position: relative;
+    bottom: -0.7rem;
+    width: 21rem;
+  }
+
+  .funny1 img {
+    position: relative;
+    top: 3rem;
+    width: 16rem;
+  }
+}
+
+@media (min-width: 390px) and (min-height: 700px) {
+  .App {
+    position: relative;
+    bottom: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .First-Background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .slider {
+    width: 390px;
+    height: 700px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .slides img {
+    width: 390px;
+    height: 700px;
+  }
+
+
+  .Second-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0rem;
+    height: 80vh;
+    width: 390px;
+  }
+
+  .Second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+  }
+
+  .title {
+    position: relative;
+    top: 27rem;
+    font-size: 39px;
+    color: #fff;
+    left: 0rem;
+    width: 19rem;
+    z-index: 100;
+  }
+
+  .My-wedding {
+    font-size: 56px;
+    position: relative;
+    left: 0.7rem;
+    bottom: 0.5rem;
+  }
+
+  .Date {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0rem;
+  }
+
+  .Date p {
+    font-size: 25px;
+    position: relative;
+    right: 2rem;
+  }
+
+  .Date h1 {
+    font-size: 27px;
+    position: relative;
+    left: 0.2rem;
+  }
+
+  .Guadalajara {
+    position: relative;
+    bottom: 0.2rem;
+  }
+
+  .Counter {
+    width: 21.5rem;
+    position: relative;
+    right: 0.8rem;
+    top: 1.8rem;
+  }
+
+  .days1 {
+    width: 4rem;
+  }
+
+  .days {
+    font-size: 22px;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .days1 small {
+    font-size: 17px;
+  }
+
+  .hours1 {
+    width: 4rem;
+  }
+
+  .hours {
+    font-size: 22px;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .hours1 small {
+    font-size: 17px;
+  }
+
+  .minutes1 {
+    width: 4rem;
+  }
+
+  .minutes {
+    font-size: 22px;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .minutes1 small {
+    font-size: 17px;
+  }
+
+  .seconds1 {
+    width: 4rem;
+  }
+
+  .seconds {
+    font-size: 22px;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .seconds1 small {
+    font-size: 17px;
+  }
+
+  .Flowers {
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Third-Background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0rem;
+    height: 80vh;
+    width: 390px;
+  }
+
+   .Third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+  }
+
+  .Schedule {
+    font-size: 57px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 1rem;
+  }
+
+  .Schedule1 {
+    position: relative;
+    right: 0rem;
+    width: 20rem;
+    top: 0.5rem;
+  }
+
+  .CereImage {
+    position: relative;
+    right: 1.8rem;
+    width: 14rem;
+  }
+
+  .CereImage img {
+    width: 4.8rem;
+  }
+
+  .CereImage p {
+    font-size: 22px;
+  }
+
+  .p1 {
+    font-size: 10px;
+  }
+
+  .CereImage a {
+    font-size: 21px;
+  }
+
+  .Ceremony {
+    width: 22rem;
+    position: relative;
+    left: -0.5rem;
+    bottom: 1.8rem;
+  }
+
+  .Cheers {
+    width: 20rem;
+    position: relative;
+    left: 0rem;
+    top: 0.8rem;
+  }
+
+  .CereText {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 0.2rem;
+  }
+
+  .CereText h1 {
+    font-size: 20px;
+  }
+
+  .CereText h2 {
+    font-size: 16.5px;
+    width: 13rem;
+  }
+
+  .CereText p {
+    font-size: 16px;
+    width: 13.5rem;
+  }
+
+  .CheersText {
+    width: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0.8rem;
+  }
+
+  .CheersText h1 {
+    font-size: 20px;
+  }
+
+  .CheersText h2 {
+    font-size: 16.5px;
+  }
+
+  .CheersText p {
+    font-size: 16px;
+    width: 13rem;
+  }
+
+  .Flowers2 img {
+    width: 16rem;
+    position: relative;
+    top: 1.8rem;
+  }
+
+  .Fourth-Background {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 390px;
+  }
+
+   .Fourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 23rem;
+  }
+
+
+  .Dressing {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 1rem;
+  }
+
+  .Traje p{
+    font-size: 18px;
+  }
+
+   .Dress p{
+    font-size: 18px;
+  }
+
+  .Traje img {
+    width: 6.5rem;
+  }
+
+   .Dress img {
+    width: 6.5rem;
+  }
+
+  .Traje {
+    position: relative;
+    bottom: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .Dress {
+    position: relative;
+    bottom: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .Formal {
+    font-size: 18px;
+    position: relative;
+    left: 0.2rem;
+    bottom: 0.5rem;
+  }
+
+  .DressCode {
+    width: 20.5rem;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 3.2rem;
+  }
+
+
+  .Reservation {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0.5rem;
+  }
+
+  
+
+  .Sixth-Background {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Sixth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 17rem;
+    width: 390px;
+  }
+
+ 
+  .Sixth .p-presents {
+    position: relative;
+    bottom: 1.2rem;
+    left: 0rem;
+    font-family: "Great Vibes", cursive;
+    font-size: 43px;
+    width: 18rem;
+  }
+
+  .best {
+    font-size: 18px;
+    position: relative;
+    bottom: 0.5rem;
+    width: 20rem;
+  }
+
+  .presents-table {
+    width: 18rem;
+    display: grid;
+    place-content: center;
+  }
+
+  .presents-table img {
+    width: 9.4rem;
+    height: 5.2rem;
+    position: relative;
+    bottom: 0.6rem;
+  }
+
+  .liverpool {
+    position: relative;
+    left: 1.5rem;
+    top: 1.5rem;
+  }
+
+  .amazon {
+    position: relative;
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+
+  .Flowers4 img {
+    width: 16rem;
+    position: relative;
+    left: 6rem;
+    bottom: -1rem;
+  }
+
+  .Fifth-Background {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+  }
+
+   .Fifth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 390px;
+  }
+
+  .funny img {
+    position: relative;
+    bottom: 1rem;
+  }
+
+  .funny {
+    position: relative;
+    left: 0rem;
+    width: 19rem;
+    bottom: 3.3rem;
+  }
+
+  .funny .attendance {
+    font-size: 45px;
+    font-family: "Great Vibes", cursive;
+    position: relative;
+    bottom: -1.9rem;
+  }
+
+  .funny .phrase {
+    font-size: 18.5px;
+    position: relative;
+    bottom: -2.7rem;
+    width: 20rem;
+  }
+
+  .funny .phrase2 {
+    font-size: 17.5px;
+    position: relative;
+    bottom: 0rem;
+    width: 18rem;
+  }
+
+  .funny img {
+    position: relative;
+    width: 13rem;
+  }
+
+  .Form {
+    width: 22rem;
+    height: 20rem;
+    position: relative;
+    right: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0.3rem;
+  }
+
+  .Form form {
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 2rem;
+  }
+
+  .confirmation input {
+    background-color: red;
+  }
+
+  .options {
+    display: flex;
+  }
+
+  .div label {
+    font-size: 29px;
+  }
+
+  .div {
+    position: relative;
+    left: 1rem;
+    width: 17rem;
+  }
+
+  .input {
+    width: 19rem;
+  }
+
+  .div1 {
+    width: 17rem;
+    position: relative;
+    left: 1rem;
+    top: 1.1rem;
+  }
+
+  .div2 {
+    width: 17rem;
+  }
+
+  .yes {
+    width: 9rem;
+    display: flex;
+  }
+
+  .no {
+    width: 11rem;
+    display: flex;
+  }
+
+  .yes label {
+    font-size: 19px;
+  }
+
+  .no label {
+    font-size: 19px;
+  }
+
+  #Si {
+    position: relative;
+    right: -0.3rem;
+    top: 0rem;
+  }
+
+  #No {
+    position: relative;
+    right: 0.7rem;
+    top: 0rem;
+  }
+
+  .input1 {
+    width: 2rem;
+  }
+
+  .input2 {
+    width: 4rem;
+  }
+
+  .div1 strong {
+    font-size: 29px;
+  }
+
+  .div2 {
+    position: relative;
+    left: 1rem;
+    top: 0.7rem;
+  }
+
+  .div2 label {
+    font-size: 29px;
+  }
+
+  .Form button {
+    position: relative;
+    left: 1rem;
+    width: 5rem;
+    height: 2.5rem;
+    font-size: 15px;
+    top: 0.5rem;
+  }
+
+  .funny1 {
+    position: relative;
+    left: 0rem;
+    width: 18rem;
+    bottom: 0rem;
+  }
+
+  .funny1 p {
+    font-size: 18.5px;
+    position: relative;
+    bottom: -0.7rem;
+    width: 21rem;
+  }
+
+  .funny1 img {
+    position: relative;
+    top: 3rem;
+    width: 16rem;
+  }
+}
 
 @media (min-width: 576px) {
   .First-Background {
