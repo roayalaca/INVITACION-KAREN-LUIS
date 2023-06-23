@@ -5720,13 +5720,14 @@
 
   .slider {
     width: 390px;
-    height: 500px;
+    height: 530px;
     border-radius: 10px;
     overflow: hidden;
   }
 
   .slides img {
     width: 390px;
+    height: 530px;
   }
 
 
@@ -5737,6 +5738,8 @@
     position: relative;
     top: 0rem;
     height: 80vh;
+    background-color: red;
+    width: 390px;
   }
 
   .Second {
@@ -5749,16 +5752,16 @@
 
   .title {
     position: relative;
-    top: 20rem;
-    font-size: 37px;
+    top: 21rem;
+    font-size: 39px;
     color: #fff;
     left: 0rem;
-    width: 17rem;
+    width: 19rem;
     z-index: 100;
   }
 
   .My-wedding {
-    font-size: 54px;
+    font-size: 56px;
     position: relative;
     left: 0.7rem;
     bottom: 0.5rem;
@@ -5775,13 +5778,13 @@
   }
 
   .Date p {
-    font-size: 23px;
+    font-size: 25px;
     position: relative;
     right: 2rem;
   }
 
   .Date h1 {
-    font-size: 25px;
+    font-size: 27px;
     position: relative;
     left: 0.2rem;
   }
@@ -5792,7 +5795,7 @@
   }
 
   .Counter {
-    width: 18.5rem;
+    width: 21.5rem;
     position: relative;
     right: 0.8rem;
     top: 1.8rem;
@@ -5803,13 +5806,13 @@
   }
 
   .days {
-    font-size: 20px;
-    width: 3rem;
-    height: 3rem;
+    font-size: 22px;
+    width: 3.5rem;
+    height: 3.5rem;
   }
 
   .days1 small {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .hours1 {
@@ -5817,13 +5820,13 @@
   }
 
   .hours {
-    font-size: 20px;
-    width: 3rem;
-    height: 3rem;
+    font-size: 22px;
+    width: 3.5rem;
+    height: 3.5rem;
   }
 
   .hours1 small {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .minutes1 {
@@ -5831,13 +5834,13 @@
   }
 
   .minutes {
-    font-size: 20px;
-    width: 3rem;
-    height: 3rem;
+    font-size: 22px;
+    width: 3.5rem;
+    height: 3.5rem;
   }
 
   .minutes1 small {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .seconds1 {
@@ -5845,13 +5848,13 @@
   }
 
   .seconds {
-    font-size: 20px;
-    width: 3rem;
-    height: 3rem;
+    font-size: 22px;
+    width: 3.5rem;
+    height: 3.5rem;
   }
 
   .seconds1 small {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .Flowers {
@@ -5868,6 +5871,8 @@
     position: relative;
     top: 0rem;
     height: 80vh;
+    background-color: green;
+    width: 390px;
   }
 
    .Third {
@@ -5879,12 +5884,12 @@
   }
 
   .Schedule {
-    font-size: 55px;
+    font-size: 57px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 1.7rem;
+    bottom: 1rem;
   }
 
   .Schedule1 {
@@ -5896,16 +5901,16 @@
 
   .CereImage {
     position: relative;
-    right: 1.5rem;
-    width: 13rem;
+    right: 1.8rem;
+    width: 14rem;
   }
 
   .CereImage img {
-    width: 4.3rem;
+    width: 4.8rem;
   }
 
   .CereImage p {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .p1 {
@@ -5913,21 +5918,21 @@
   }
 
   .CereImage a {
-    font-size: 19px;
+    font-size: 21px;
   }
 
   .Ceremony {
-    width: 18rem;
+    width: 22rem;
     position: relative;
-    left: 2rem;
+    left: -0.5rem;
     bottom: 1.8rem;
   }
 
   .Cheers {
-    width: 18rem;
+    width: 20rem;
     position: relative;
-    left: 2rem;
-    top: 1rem;
+    left: 0rem;
+    top: 0.8rem;
   }
 
   .CereText {
@@ -5941,15 +5946,17 @@
   }
 
   .CereText h1 {
-    font-size: 18.5px;
+    font-size: 20px;
   }
 
   .CereText h2 {
     font-size: 16.5px;
+    width: 13rem;
   }
 
   .CereText p {
     font-size: 16px;
+    width: 13.5rem;
   }
 
   .CheersText {
@@ -5958,10 +5965,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    left: 0.8rem;
   }
 
   .CheersText h1 {
-    font-size: 18.5px;
+    font-size: 20px;
   }
 
   .CheersText h2 {
@@ -5969,7 +5978,8 @@
   }
 
   .CheersText p {
-    font-size: 16.5px;
+    font-size: 16px;
+    width: 13rem;
   }
 
   .Flowers2 img {
@@ -5983,6 +5993,8 @@
     justify-content: center;
     align-items: center;
     height: 60vh;
+    background-color: yellow;
+    width: 390px;
   }
 
    .Fourth {
@@ -5996,6 +6008,11 @@
   .DressCode {
     position: relative;
     top: -0.5rem;
+    width: 30rem;
+  }
+
+  .DressCode p {
+    font-size: 45px;
   }
 
   .Dressing {
