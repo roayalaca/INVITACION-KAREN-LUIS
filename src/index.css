@@ -7629,6 +7629,8 @@
   .no {
     width: 11rem;
     display: flex;
+    position: relative;
+    left: 2rem;
   }
 
   .yes label {
@@ -7647,7 +7649,7 @@
 
   #No {
     position: relative;
-    right: -0.3rem;
+    right: 0.5rem;
     top: 0.2rem;
   }
 
