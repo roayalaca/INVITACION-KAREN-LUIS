@@ -7,6 +7,7 @@ import Attendance from "./components/Attendance";
 import Photos from "./components/Photos";
 import Presents from "./components/Presents";
 import Flower from "./components/Flower";
+import Flower1 from "./components/Flowers1";
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
         <Presents />
         <Flower />
         <Attendance />
-        <Flower />
+        <Flower1/>
       </div>
     </>
   );

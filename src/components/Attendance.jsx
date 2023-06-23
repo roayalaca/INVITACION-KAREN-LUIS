@@ -133,7 +133,7 @@ const Attendance = () => {
             celebrar juntos este mágico momento.
           </p>
         </div>
-        
+
       </div>
     </div>
   );
