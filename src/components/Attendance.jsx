@@ -27,7 +27,7 @@ const Attendance = () => {
         alert("Su respuesta ha sido registrada en absences");
       } else {
         axios
-          .post("https://boda-karen-luis-api.onrender.com/invitados", data)
+          .post("https://karen-luis-boda.onrender.com/invitados", data)
           .then((resp) => {
             console.log(resp.data);
           })
