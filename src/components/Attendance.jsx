@@ -17,7 +17,7 @@ const Attendance = () => {
     if (name && attendance && phone) {
       if (data.attendance === "no") {
         axios
-          .post("https://boda-karen-luis-api.onrender.com/absences", data)
+          .post("https://api-boda-kyl.onrender.com/absences", data)
           .then((resp) => {
             console.log(resp.data);
           })
@@ -27,7 +27,7 @@ const Attendance = () => {
         alert("Su respuesta ha sido registrada en absences");
       } else {
         axios
-          .post("https://karen-luis-boda.onrender.com/invitados", data)
+          .post("https://api-boda-kyl.onrender.com/invitados", data)
           .then((resp) => {
             console.log(resp.data);
           })
